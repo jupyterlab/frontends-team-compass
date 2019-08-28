@@ -12,4 +12,14 @@ for doing so on the core `jupyterlab` organization:
 2.  A core maintainer reviews any existing code as a sanity check.
 3.  Relicense any existing code to https://github.com/jupyterlab/team-compass/blob/master/LICENSE.
 4.  Give the community roughly a week to comment on the proposal.
-5. Pending any objections, create a new repository. Give any maintainers admin privileges on that repo and add them as maintainers on the relevant NPM packages.
+5. Pending any objections, create a new repository.
+   1. Give any maintainers admin privileges on that repo
+   2. Add them as maintainers on the relevant NPM packages. A user must be added to a team, which then has access to packages (under "Teams").
+      1. Admin logs in to https://www.npmjs.com
+      2. Select avatar dropdown and go to "Profile Settings"
+      3. Select the jupyterlab org
+      4. Go to Members
+      5. Click "Invite Members..."
+      6. Add the username or email
+      7. Click "Invite"
+      8. Click "Continue"
