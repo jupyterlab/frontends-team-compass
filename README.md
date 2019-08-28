@@ -12,4 +12,4 @@ for doing so on the core `jupyterlab` organization:
 2.  A core maintainer reviews any existing code as a sanity check.
 3.  Relicense any existing code to https://github.com/jupyterlab/team-compass/blob/master/LICENSE.
 4.  Give the community roughly a week to comment on the proposal.
-5. Pending any objections, create a new repository. Give any maintainers admin privilages on that repo and add them as maintainers on the relvent NPM packages.
+5. Pending any objections, create a new repository. Give any maintainers admin privileges on that repo and add them as maintainers on the relevant NPM packages.
