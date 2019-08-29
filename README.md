@@ -3,18 +3,23 @@
 A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.
 
 
-## Process for adding new projects
+## Contributing extensions to the JupyterLab GitHub organization
 
-If you have an existing JupyterLab extension, or would like to create one, this is the process
-for doing so on the core `jupyterlab` organization:
+JupyterLab is built to foster a rich ecosystem of plugins. Occasionally developers of an existing JupyterLab extension will want to contribute the extension to Project Jupyter and maintain the extension in the JupyterLab GitHub organization under [Project Jupyter governance](https://github.com/jupyter/governance), which includes:
 
-1. You post an issue on this repo describing your extension and linking to any existing code. You should describe who will maintain it and why it will be useful to the community.
-2.  A core maintainer reviews any existing code as a sanity check.
-3.  Relicense any existing code to https://github.com/jupyterlab/team-compass/blob/master/LICENSE.
-4.  Give the community roughly a week to comment on the proposal.
-5. Pending any objections, create a new repository.
-   1. Give any maintainers admin privileges on that repo
-   2. Add them as maintainers on the relevant NPM packages. A user must be added to a team, which then has access to packages (under "Teams").
+* adopting the standard Jupyter license and copyright
+* adhering to Project Jupyter community guidelines
+* being subject to the Project Jupyter BDFL, Steering Council, and governance.
+
+Project Jupyter has [official guidelines](https://github.com/jupyter/governance/blob/master/newsubprojects.md) for adopting new subprojects. More specifically for contributing extension codebases to the JupyterLab GitHub organization, the process for contributing is:
+
+1. Post an issue on this repo describing your extension and linking to the existing code. The issue should address each point of the [criteria for subprojects](https://github.com/jupyter/governance/blob/master/newsubprojects.md#criteria-for-official-subprojects).
+2. The community reviews the proposal over at least a week. In addition to the criteria listed in the Project Jupyter governance:
+   1. a core maintainer will review the existing code
+   2. we will also take into account how involved the extension maintainers are in the JupyterLab community
+3. If the JupyterLab maintainers decide to accept the extension into the JupyterLab GitHub organization, the process in the Project Jupyter [incorporation guidelines](https://github.com/jupyter/governance/blob/master/newsubprojects.md#incorporation) is followed. Additionally:
+   1. JupyterLab maintainers and other relevant Jupyter leadership (such as BDFL) are given permission to publish the package.
+   2. Extension maintainers are given admin permission on the relevant `@jupyterlab/extension` npm package. To do this, a user must be added to a team, which then has access to packages (under "Teams"):
       1. Admin logs in to https://www.npmjs.com
       2. Select avatar dropdown and go to "Profile Settings"
       3. Select the jupyterlab org
