@@ -39,10 +39,13 @@ You can consider these in addition to the [SemVer 2.0.0](https://semver.org/) sp
 
 The last two mean you have to totally finish release before you start on the next one. For example, it would be illegal to have releases in this order: `1.2.0a0`, `1.3.0a0`, `1.2.0`, then `1.3.0`.
 
+## Strategy
 
-## Branches
+Based on these assumption we can create a consistant branching strategy.
 
-Given these assumptions, we can create a consistent strategy aligning branches to different releases:
+### Branches
+
+Each branch should be aligned to different releases:
 
 1. Patch: `{x}.{y}.x` branches.
 2. Minor: `{x}.x.0` branches. After final release `{x}.{y}.0` create new patch `{x}.{y}.x` branch.
@@ -53,51 +56,40 @@ Each increment has a corresponding "latest" branch for the greatest working vers
 *Note: We could instead have separate branches for each version, but this isn't necessarily if we are going by the **Single Active** assumption above.*
 
 
-## PR Semver Tags
+### PR Semver Tags
 
 Each PR should be tagged with one of three tags `semver:patch`, `semver:minor`, `semver:major` before it is merged. We could do this manually or by possibly giving a first guess [using type analysis](https://api-extractor.com/) or some commit message keywords. We should have a bot that blocks merging if one of these is not added.
 
-## PR Base Branches
+If you have change that is *only* a backprt, and should not appear in master, then you can target that branch as the base of this merge.
 
-Each pull request should target as it's base branch the latest branch for the corresponding increment. We should have a bot that keeps this up to date ([can change base branch in Github API](https://octokit.github.io/rest.js/v17#pulls-update)). For example if a PR is tagged with `semver:minor` and you have branches `master`, `2.x.0`, `1.x.0`, and `2.1.x` it should be have as its head `2.x.0` because that is the latest minor branch.
+### PR Backports
+Once a PR is merged into master, backport PRs should be opened against all other open branches of the corresponding increment. 
+This will likely result in some cases where backports are proposed that are not appropriate, in which case they can be closed. 
 
-
-## PR Backports
-Once  PR is merged, backport PRs should be opened against all other open branches of the corresponding increment. 
-
-This will likely result in some cases where backports are proposed that are not appropriate, in which case they can be closed.
-
-
-## Branch Merges
-
-After a release on a branch, a PR should be opened to merge it into the larger increment branch, for minor and patch releases.
-The key is to not create a merge if the branch doesn't exist or if this commit wasn't targeting the most recent release.
-
-* Patch: After a release of `{x}.{y}.{z}` on branch `{x}.{y}.x` a PR should be opened to merge `{x}.{y}.x` into `{x}.x.0` if it exists, otherwise into master if this a patch on the latest minor and latest major, i.e. the last final release on `master` is `{x}.0.0` and the last final release on `{x}.0.x` is `{x}.{y}.0`.
-* Minor: After a release of `{x}.{y}.0` on branch `{x}.x.0` a PR should be opened to merge `{x}.x.0` into `master` if the last final release on master is `{x}.0.0`.
+1. Patch: Backport to all `{x}.{y}.x` branches and all `{x}.x.0` branches.
+2. Minor: Backport to all `{x}.x.0` branches.
+3. Major: No backports.
 
 
-
-## Milestones
+### Milestones
 
 Each branch therefore always has an "active" milestone associated with it, which corresponds to the next final release
 on that branch. If we don't wish to make any more releases from a branch, we should delete it.
 
 Each PR's milestone should reflect active milestone of the branch it targets.
 
-## Changelog
+### Changelog
 
 Each PR should add or edit a file in a directory full of files corresponding to unreleased changes, [like matplotlib does](https://matplotlib.org/devel/contributing.html#contributing-pull-requests). During a final release, these items are deleted
 from that file and compiled to a changelog file for that release. All of these files are included in the master changelog.
 
 The changelog entries should be kept in chronological order, instead of semver ordering.
 
+## Example
 
-## Example Branches
+I went back and looked at all our tags since `v1.1.0` to see if I could create a branch diagram for them (using [`gitgraph.js`](https://github.com/nicoespeon/gitgraph.js/)) if we had been using the technique I proposed above. I don't include any commits, besides releases and merges. Also, I designate still open branches by giving them each a final commit at the end. So this would be under the assumption that the only version branches open in the repo are `master`, `2.x.0`, `2.1.x`, and `1.2.x`. ([src](https://codepen.io/saulshanabrook/pen/xxwryBa?editors=1010)). 
 
-I went back and looked at all our tags since `v1.1.0` to see if I could create a branch diagram for them (using [`gitgraph.js`](https://github.com/nicoespeon/gitgraph.js/)) if we had been using the technique I proposed above. I don't include any commits, besides releases and merges. Also, I designate still open branches by giving them each a final commit at the end. So this would be under the assumption that the only version branches open in the repo are `master`, `2.x.0`, `2.1.x`, and `1.2.x`. ([src](https://codepen.io/saulshanabrook/pen/xxwryBa?editors=1010)). It also supposes that we had a `1.x.0` branch that we deleted after `1.2.0` release. That is why all the later patches to `1.2` are not merged into that branch. If we had left it open, then they would be and we could make another minor release on 1 if we wanted.
-
-![](https://gist.githubusercontent.com/saulshanabrook/c4cd5b85161ea41b533c1725d72ab510/raw/fb9c9206cd6915166de1c3716a22eddaacef679f/codepen----gitgraph-js-playground%2520(1).svg)
+![](https://gist.githubusercontent.com/saulshanabrook/6d92df6e1872a5560674e097efd4abf3/raw/1e4f533196d24e9db9955dc8c0ba487e0633edc7/codepen----gitgraph-js-playground%2520(2).svg)
 
 ## Division of labor
 
@@ -115,7 +107,7 @@ You can set it by either adding a commit with `semver:patch`, `semever:minor`, o
 
 **Milestone**: Don't touch this, it will be set automatically.
 
-**Branch base**: Normally don't touch this. However, if this PR is not meant for the latest release, but instead only for a backport to an older release, then add `release:backport` tag and set the branch base to correspond to the branch you want to merge it against. For example if you have a fix only for the next 1.2.x release, but the latest semver release is 2.1.2, then use this label and set the base branch to `1.2.x`.
+**Branch base**: Normally don't touch this. However, if this PR is not meant for the latest release, but instead only for a backport to an older release, set the branch base to correspond to the branch you want to merge it against. For example if you have a fix only for the next 1.2.x release, but the latest semver release is 2.1.2, then use this label and set the base branch to `1.2.x`.
 
 
 ### Pull request merger
@@ -135,28 +127,15 @@ To make a release go to {as yet unspecified page we will build} and you will see
 ### Bots
 
 
-**Semver label**: Whenever a PR has new commits, scan them for the semver label names in the messages, and if it finds any merge it with the existing, choosing the more. Also look at special label like `feature:Bug` (patch) and `feature:Enhancement` (minor).
+**Semver label**: Whenever a PR has new commits, scan them for the semver label names in the messages, and if it finds any merge it with the existing, choosing the more breaking. Also look at special label like `feature:Bug` (patch) and `feature:Enhancement` (minor).
 
 
 **Semver check**: Fail (and don't allow merging on this failure) on any PR that doesn't have one, and only one, of the `semver:patch`, `semver:minor`, `semver:major` labels.
 
-**Create backports**: After a PR is merged, that doesn't have a `release:backport` label, create backports for that release. It should target all other branches of the same increment, and add `release:backport` to those PRs:
-
-* Major: Merging into `master` creates no backports.
-* Minor: Merging into `{x}.x.0` creates backports to all other branches `{x'}.x.0`.
-* Patch: Merging into `{x}.{y}.x` creates backports to all other branches `{x'}.{y'}.x`.
+**Create backports**: After a PR is merged into the `master` brnach, create backports for that release. It should target all other branches of the same increment according to the "PR Backports" logic above.
 
 
-**Update base**: If a PR doesn't have the `release:backport` label, then set the base of the PR to the latest existing branch corresponding to the semver label:
-
-* Major: Base should be `master`
-* Minor: Base should be`{x}.x.0` for largest `x`.
-* Patch: Base should be`{x}.{y}.x` for largest `x`, then largest `y`.
-
-The base should be updated whenever the semver label is updated.
-
-
-**Base check**: Verify that the semver label corresponds to the increment of the branch of the base.
+**Base check**: Verify that the semver label corresponds to the increment of the branch of the base, if it isn't master.
 
 
 **Update/create milestone**: Set the milestone to the next final release of the base branch. Update after every change of base branch and after every commit on the base branch. Create the milestone if it does not exist.
