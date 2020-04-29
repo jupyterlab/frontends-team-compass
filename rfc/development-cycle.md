@@ -1,11 +1,6 @@
 
 # Jupyter Development Cycle
 
-**TODO**
-
-* Look at merging in, I dont think this works on merging in patch/minor up once the
-  next release has had a prerelease. I think as base we should choose the branch with the most recent release maybe?
-
 The goal of this document is to outline a development cycle for JupyterLab which makes it very easy to do releases. As [documented in this issue](https://github.com/jupyterlab/jupyterlab/issues/8195), it's currently a quite laborious and specialized process. If we can make releases easier to manage, and push any of the hard work around so it's tackled by the authors of the PRs instead of the release managers, we can release more easily and free up core developer time for other matters.
 
 This is meant to support our existing release cycles, not change them, but just provide some standardization and tooling to aid us in keeping to them.
@@ -198,7 +193,7 @@ For any type of release, it will also open a PR against the conda forge repo, to
 ## Open questions
 
 1. How to deal with granularities of version changes across JS packages? Currently we only [have major version bumps for the packages we need to](https://github.com/jupyterlab/jupyterlab/blob/master/RELEASE.md#js-major-releases). This system doesn't support that, instead bumping everything! How granular do we wanna be? Just for major? Or for minor versions as well? What if a PR is a minor version bump for some packages and patch changes for others? Should we track this? 
-
+2. How do we deal with changelogs properly? Where do we deploy them from?
 
 ## Further work:
 
