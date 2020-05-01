@@ -39,6 +39,8 @@ You can consider these in addition to the [SemVer 2.0.0](https://semver.org/) sp
 
 The last two mean you have to totally finish release before you start on the next one. For example, it would be illegal to have releases in this order: `1.2.0a0`, `1.3.0a0`, `1.2.0`, then `1.3.0`.
 
+**JavaScript versions In Sync** We are ok always keeping the JS version bumps in sync. Meaning that if we do a major release of the Python package we also do a major release of all JS versions.
+
 ## Strategy
 
 Based on these assumption we can create a consistant branching strategy.
@@ -171,8 +173,7 @@ For any type of release, it will also open a PR against the conda forge repo, to
 
 ## Open questions
 
-1. How to deal with granularities of version changes across JS packages? Currently we only [have major version bumps for the packages we need to](https://github.com/jupyterlab/jupyterlab/blob/master/RELEASE.md#js-major-releases). This system doesn't support that, instead bumping everything! How granular do we wanna be? Just for major? Or for minor versions as well? What if a PR is a minor version bump for some packages and patch changes for others? Should we track this? 
-2. How do we deal with changelogs properly? Where do we deploy them from?
+1. How do we deal with changelogs properly? Where do we deploy them from?
 
 ## Further work:
 
