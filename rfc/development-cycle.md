@@ -153,7 +153,7 @@ can release extensions that are compatible with multiple major versions of Jupyt
 2. Bump JS and push release
 3. Create python release and test (optional)
 4. Push python python release
-5. Create new branches and create merge commits (on final release)
+5. Create new branches (on final release)
 7. Create PRs to other repos for new version (on final release)
 
 It takes three inputs, the branch you are releasing from, whether it's a pre release, and whether to force release without testing. If it is a pre-release, it should be one of `rc`, `beta`, `alpha`.
