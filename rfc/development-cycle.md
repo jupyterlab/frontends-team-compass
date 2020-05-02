@@ -39,7 +39,7 @@ You can consider these in addition to the [SemVer 2.0.0](https://semver.org/) sp
 
 The last two mean you have to totally finish a release on one branch before you start on the next one. For example, it would be illegal to have releases in this order: `1.2.0a0`, `1.3.0a0`, `1.2.0`, then `1.3.0`. However, you could have `1.2.0a0`, `1.1.1a0`, `1.2.0`, then `1.1.1`, because these would be on different branches, `1.x.0` and `1.1.x`.
 
-**JavaScript versions In Sync** We are ok always keeping the JS version bumps in sync. Meaning that if we do a major release of the Python package we also do a major release of all JS versions.
+**JavaScript versions In Sync** We are OK always keeping the JS version bumps in sync. Meaning that if we do a major release of the Python package we also do a major release of all JS versions.
 
 ## Strategy
 
@@ -124,6 +124,11 @@ You can set it by either adding a commit with `semver:patch`, `semever:minor`, o
 
 To make a release go to {as yet unspecified page we will build} and you will see a list of all the open branches. Each branch will show you the number of commits since the last release on that branch. Also on each branch will be buttons for each of the releases you can make from that branch. Any branch which has a release ongoing (currently running) will show that. You can also delete any version branch from this UI where the last commit was a final version.
 
+
+### Extension Authors
+
+Be sure to allow multiple major versions of a package, like `^2 || ^3` if they are both compatible. We should be clear about documenting this so extension authors
+can release extensions that are compatible with multiple major versions of JupyterLab.
 
 
 ### Bots
