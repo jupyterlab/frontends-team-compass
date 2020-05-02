@@ -102,7 +102,7 @@ The "Bots" section is also a roadmap of what would need to be implemented to mov
 ### Pull request author
 
 **Semver Label**: Make sure pull request has appropriate semver label.
-You can set it by either adding a commit with `semver:patch`, `semever:minor`, or `semver:major`, or setting the label in GitHub.
+You can set it by either adding a commit with `semver:patch`, `semever:minor`, or `semver:major`, or setting the label in GitHub (optionally [using a bot](https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md#tag-issues-with-labels)).
 
 **Changelog entry**: Add a new markdown or RST file in `docs/source/changes/new`. Use the current data and some rough title for the filename, so it is unique. If you want it to be under a subheader, make a subdirectory for that. Some common ones are `Bug fixes`, `For developers`, `User-facing changes`. If your change is small, just make it a single bullet in a list. 
 
