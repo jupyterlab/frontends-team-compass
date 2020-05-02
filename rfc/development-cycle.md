@@ -37,7 +37,7 @@ You can consider these in addition to the [SemVer 2.0.0](https://semver.org/) sp
 * Minor: No commits towards `{x}.{y}.0` till `{x}.{y-1}.0` final is released.
 * Major: No commits towards `{x}.0.0` till `{x-1}.0.0` final is released.
 
-The last two mean you have to totally finish release before you start on the next one. For example, it would be illegal to have releases in this order: `1.2.0a0`, `1.3.0a0`, `1.2.0`, then `1.3.0`.
+The last two mean you have to totally finish a release on one branch before you start on the next one. For example, it would be illegal to have releases in this order: `1.2.0a0`, `1.3.0a0`, `1.2.0`, then `1.3.0`. However, you could have `1.2.0a0`, `1.1.1a0`, `1.2.0`, then `1.1.1`, because these would be on different branches, `1.x.0` and `1.1.x`.
 
 **JavaScript versions In Sync** We are ok always keeping the JS version bumps in sync. Meaning that if we do a major release of the Python package we also do a major release of all JS versions.
 
