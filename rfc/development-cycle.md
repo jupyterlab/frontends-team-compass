@@ -124,7 +124,9 @@ You can set it by either adding a commit with `semver:patch`, `semever:minor`, o
 
 ### Release Manager
 
-To make a release go to {as yet unspecified page we will build} and you will see a list of all the open branches. Each branch will show you the number of commits since the last release on that branch. Also on each branch will be buttons for each of the releases you can make from that branch. Any branch which has a release ongoing (currently running) will show that. You can also delete any version branch from this UI where the last commit was a final version.
+Find the pull request to release the version you want and merge it. This will trigger the release of the packages. There should be different pull requests for each in progress branch for the different types of next release, like `alpha`, `beta`, `rc`, and `final`.
+
+Once this release has been done, a list of open PRs will be posted to this PR, for any additional merges that need to happen in other repos. Also, you should delete the release branch if this was a final release and you don't want to do any more releases off of this branch.
 
 
 ### Extension Authors
@@ -146,36 +148,22 @@ can release extensions that are compatible with multiple major versions of Jupyt
 
 **Base check**: Verify that the semver label corresponds to the increment of the branch of the base, if it isn't master.
 
-
 **Update/create milestone**: Set the milestone to the next final release of the base branch. Update after every change of base branch and after every commit on the base branch. Create the milestone if it does not exist.
 
-**Do release**:  This should be an action with an API endpoint. It is the most complicated and involved action. It takes place in a number of stages:
+**Changelog Release Check**: On each release PR, fail if there are no new changelog entries in the branch.
 
-1. Input/pre-release check
-2. Bump JS and push release
-3. Create python release and test (optional)
-4. Push python python release
-5. Create new branches (on final release)
-7. Create PRs to other repos for new version (on final release)
+**Create Release PR**: After a new release is succesfull or when a new version branch is created, create other branches, in a fork of this repo, for each possible new release type. Run the command to bump all the JS versions properly for that release type, without actually publishing those versions. Also bump the Pyton version, without releaseing. Then open a PR to merge that branch into the original branch. We should also run the command to consolidate the documentation to a new release file.
 
-It takes three inputs, the branch you are releasing from, whether it's a pre release, and whether to force release without testing. If it is a pre-release, it should be one of `rc`, `beta`, `alpha`.
+**Test Release PR**: On each release PR, run a special test for verifying the release works. This works by running a verdaccio server, publishing the npm packages to that server, and then installing the Python package with that proxy server. Then a number of integration tests are run, like opening a notebook and running some cells. It should persist these built packages as artifacts on Github actions.
 
-Before starting it checks to make sure the branch is version branch and that the pre release is valid. You can skip pre release phases, but you cannot go backwards.
-This means if you just did a beta, you cannot do an rc, and if you just did an rc, you cannot do a beta or alpha.
+**Do release**: Afte a release PR is merged, pull in the artifacts from the release PR and publish them to NPM and PyPi. Once that is successful it will push back tags for that release to the Github merge commit. 
 
-Next, it will checkout the branch in question and create a clean environment. Then it will run the appropriate `jlpm bumpversion` command (these will need to be updated) to create and publish the packages. 
 
-Then it will publish all the JS packages `npm run publish:all`.
+**After final release, create new branches**: Once new tags have been pushed for a final release, create new branches based on the "Branches" logic above.
 
-Next it will run the end to end tests in a clean environment, if we are not doing a force release, (not the normal unit tests. This let's us publish even if these are failing). If these fail it will push what the JS version changes, but not the python one and exit.
+**After latest final release, update other repos**: After a final release that is the latest release, by semver, open a PR to each cookiecutter repos, and other extension repos, to upgrade them. Post a link to these on the release PR.
 
-If they succeed, it will upload the wheel to python and push all tags and commits.
-
-Now, if this was a final release, it has some more work to do! First, it will try to merge this release into another branch, as the "Branch Merging" logic dictates above. Then create new branches according to the "Branches" logic above. Push all of that.
-
-Then it will open PRs to the cookiecutter repos, if this was the latest release, to update them.
-
-For any type of release, it will also open a PR against the conda forge repo, to release this version. It will create it on the same branch as the branch we made the release on in JupyterLab.
+**After release, create conda packages**: After any release, create a PR against the conda forge repo to release that version. It will create it on the same branch as the branch we made the release on in JupyterLab, on some fork of that repo. Post a link to this on the release PR.
 
 
 ## Open questions
