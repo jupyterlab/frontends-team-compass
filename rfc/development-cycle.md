@@ -62,7 +62,7 @@ Each increment has a corresponding "latest" branch for the greatest working vers
 
 Each PR should be tagged with one of three tags `semver:patch`, `semver:minor`, `semver:major` before it is merged. We could do this manually or by possibly giving a first guess [using type analysis](https://api-extractor.com/) or some commit message keywords. We should have a bot that blocks merging if one of these is not added.
 
-If you have change that is *only* a backprt, and should not appear in master, then you can target that branch as the base of this merge.
+If you have change that is *only* a backport, and should not appear in master, then you can target that branch as the base of this merge.
 
 ### PR Backports
 Once a PR is merged into master, backport PRs should be opened against all other open branches of the corresponding increment. 
