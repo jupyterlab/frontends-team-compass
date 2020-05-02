@@ -85,6 +85,8 @@ Each PR's milestone should reflect active milestone of the branch it targets.
 Each PR should add or edit a file in a directory full of files corresponding to unreleased changes, [like matplotlib does](https://matplotlib.org/devel/contributing.html#contributing-pull-requests). During a final release, these items are deleted
 from that file and compiled to a changelog file for that release. All of these files are included in the master changelog.
 
+If there are no new changelog entries, we should not be able to make a release.
+
 The changelog entries should be kept in chronological order, instead of semver ordering.
 
 ## Example
