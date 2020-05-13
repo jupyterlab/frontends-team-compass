@@ -1,3 +1,8 @@
+- Alternative names
+  - Experimental features
+  - Unstable features
+  - Preview features
+
 - Abstract
 
   Currently, the api for all new features in JupyterLab has to be frozen within the span of a single PR. This is due to the fact that we follow semver; breaking changes may only occur on the occasion of a major version bump.
