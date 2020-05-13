@@ -6,11 +6,17 @@
     - These features (including their API) benefit from wide community feedback, and suffer in the vacumn of 1000+ line single PRs
     - The more complex a feature, the more likely it is for its first draft to have at least some poorly formed or ill-considered API
 
-  To fix this, I propose that we should adopt a formal process for allowing provisional features in the master branch of JuptyerLab core.
+  To fix this, I propose that we should adopt a formal process for allowing provisional features in the master branch of JuptyerLab core. This will give the core dev team the opportunity to dogfood and improve complex features before declaring them fit for wider consumption in production code.
+
+  Our process should aim for an ideal whereby once a feature is declared mature, it will require no further changes to its API. This in turn would mean fewer breaking changes and less overall maintainence for 3rd party devs.
 
 - Goals
   - a better experience for core devs, extension devs, and power users around versioning and compatibility
   - easier version migration for core and extensions packages
+
+- What this proposal is not
+  - a general call to relax semver discipline
+  - saying that we should hold a community-wide referendum every time someone proposes a new provisional feature
 
 - Terminology
   - community: JupyterLab core devs, extension devs, and end users
@@ -23,8 +29,7 @@
   - Include an outline of future work, including a rough schedule describing the process by which this feature will graduate by the time of the next major release
 
 - Graduating a feature from provisional to mature
-  - A provisional feature may graduate on any minor release
-  - A provisional feature must graduate by the next major release (wrt when it was initally pulled into core) or be removed
+  - A provisional feature must graduate on the next major release (wrt when it was initally pulled into core) or be removed
 
 - How to treat a provisional feature
   - In JupyterLab core code:
