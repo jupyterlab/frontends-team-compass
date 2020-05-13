@@ -25,3 +25,13 @@
 - Graduating a feature from provisional to mature
   - A provisional feature may graduate on any minor release
   - A provisional feature must graduate by the next major release (wrt when it was initally pulled into core) or be removed
+
+- How to treat a provisional feature
+  - In JupyterLab core code:
+    - May be called (and in general treated) the same as any other feature
+    - Ping the original feature dev on any related PR
+    - If a dev makes changes to a provisional feature, it is their responsibiliy to fix any knock-on effects in core
+  - In a 3rd party extension:
+    - May be experimented with
+    - Should not be used in production code
+    - Under no circumstances should a provisional feature be used in released code
