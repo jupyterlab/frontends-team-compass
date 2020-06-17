@@ -14,7 +14,7 @@ Please give feedback on these first.
 You can consider these in addition to the [SemVer 2.0.0](https://semver.org/) spec, having more to do with the relations between the code evolution between multiple versions. They assume we are already following SemVer.
 
 
-**alpha, beta, rc**: Each release goes through some optional number of alpha, beta, and RC release, before the final. For some final release `{x}.{y}.{z}` it can be modeled with this state machine
+**alpha, beta, rc**: Each release goes through some optional number of alpha, beta, and RC release, before the final. For some final release `{x}.{y}.{z}` it can be modeled with this state machine:
 
 1. Start by releasing one of these:
     1. `{x}.{y}.{z}a0`
@@ -30,20 +30,20 @@ You can consider these in addition to the [SemVer 2.0.0](https://semver.org/) sp
 * Minor: `{x}.{y}.0` is an ancestor of `{x}.{y+1}.0`.
 * Major: `{x}.0.0` is an ancestor of `{y+1}.0.0`.
 
-**Single Active**: No commits will be queued up for a release until the previous increment was fully release
+**Single Active**: No commits will be queued up for a release until the previous increment was fully released
 (this also falls out of the above assumption). 
 
 * Patch: No commits towards `{x}.{y}.{z}` till `{x}.{y}.{z-1}` final is released.
 * Minor: No commits towards `{x}.{y}.0` till `{x}.{y-1}.0` final is released.
 * Major: No commits towards `{x}.0.0` till `{x-1}.0.0` final is released.
 
-The last two mean you have to totally finish a release on one branch before you start on the next one. For example, it would be illegal to have releases in this order: `1.2.0a0`, `1.3.0a0`, `1.2.0`, then `1.3.0`. However, you could have `1.2.0a0`, `1.1.1a0`, `1.2.0`, then `1.1.1`, because these would be on different branches, `1.x.0` and `1.1.x`.
+The last two means you have to totally finish a release on one branch before you start on the next one. For example, it would be illegal to have releases in this order: `1.2.0a0`, `1.3.0a0`, `1.2.0`, then `1.3.0`. However, you could have `1.2.0a0`, `1.1.1a0`, `1.2.0`, then `1.1.1`, because these would be on different branches, `1.x.0` and `1.1.x`.
 
 **JavaScript versions In Sync** We are OK always keeping the JS version bumps in sync. Meaning that if we do a major release of the Python package we also do a major release of all JS versions.
 
 ## Strategy
 
-Based on these assumption we can create a consistant branching strategy.
+Based on these assumptions we can create a consistent branching strategy.
 
 ### Branches
 
@@ -53,12 +53,12 @@ Each branch should be aligned to different releases:
 2. Minor: `{x}.x.0` branches. After final release `{x}.{y}.0` create new patch `{x}.{y}.x` branch.
 3. Major: `master` branch. After release `{x}.0.0` create new minor `{x}.x.0` branch and new patch `{x}.0.x` branch.
 
-Each increment has a corresponding "latest" branch for the greatest working version. For example with two branches `2.x.0`, `1.x.0`  the "latest" minor branch is `2.x.0`. The latest major branch is always `master`.
+Each increment has a corresponding "latest" branch for the greatest working version. For example with two branches `2.x.0`, `1.x.0` the "latest" minor branch is `2.x.0`. The latest major branch is always `master`.
 
 *Note: We could instead have separate branches for each version, but this isn't necessarily if we are going by the **Single Active** assumption above.*
 
 
-### PR Semver Tags
+### PR SemVer Tags
 
 Each PR should be tagged with one of three tags `semver:patch`, `semver:minor`, `semver:major` before it is merged. We could do this manually or by possibly giving a first guess [using type analysis](https://api-extractor.com/) or some commit message keywords. We should have a bot that blocks merging if one of these is not added.
 
@@ -87,7 +87,7 @@ from that file and compiled to a changelog file for that release. All of these f
 
 If there are no new changelog entries, we should not be able to make a release.
 
-The changelog entries should be kept in chronological order, instead of semver ordering.
+The changelog entries should be kept in chronological order, instead of SemVer ordering.
 
 ## Example
 
@@ -103,24 +103,24 @@ The "Bots" section is also a roadmap of what would need to be implemented to mov
 
 ### Pull request author
 
-**Semver Label**: Make sure pull request has appropriate semver label.
+**SemVer Label**: Make sure pull request has appropriate SemVer label.
 You can set it by either adding a commit with `semver:patch`, `semever:minor`, or `semver:major`, or setting the label in GitHub (optionally [using a bot](https://github.com/jupyterlab/jupyterlab/blob/master/CONTRIBUTING.md#tag-issues-with-labels)).
 
-**Changelog entry**: Add a new markdown or RST file in `docs/source/changes/new`. Use the current data and some rough title for the filename, so it is unique. If you want it to be under a subheader, make a subdirectory for that. Some common ones are `Bug fixes`, `For developers`, `User-facing changes`. If your change is small, just make it a single bullet in a list. 
+**Changelog entry**: Add a new markdown or RST file in `docs/source/changes/new`. Use the current data and some rough title for the filename, so it is unique. If you want it to be under a sub-header, make a subdirectory for that. Some common ones are `Bug fixes`, `For developers`, `User-facing changes`. If your change is small, just make it a single bullet in a list. 
 
 
 **Milestone**: Don't touch this, it will be set automatically.
 
-**Branch base**: Normally don't touch this. However, if this PR is not meant for the latest release, but instead only for a backport to an older release, set the branch base to correspond to the branch you want to merge it against. For example if you have a fix only for the next 1.2.x release, but the latest semver release is 2.1.2, then use this label and set the base branch to `1.2.x`.
+**Branch base**: Normally don't touch this. However, if this PR is not meant for the latest release, but instead only for a backport to an older release, set the branch base to correspond to the branch you want to merge it against. For example if you have a fix only for the next 1.2.x release, but the latest SemVer release is 2.1.2, then use this label and set the base branch to `1.2.x`.
 
 
 ### Pull request merger
 
-**Semver Label**: Verify the correct semver label is applied to the change.
+**SemVer Label**: Verify the correct SemVer label is applied to the change.
 
 **Changelog entry**: Verify that any changes add or change an existing changelog entry.
 
-**Review backports**: After you merge it, review all the backport PRs that were created and merge them if appropriate. Close any that are not relevent. Also for any backports the bot failed to make automatically, make them manually if they are necessary.
+**Review backports**: After you merge it, review all the backport PRs that were created and merge them if appropriate. Close any that are not relevant. Also, for any backports the bot failed to make automatically, make them manually if they are necessary.
 
 ### Release Manager
 
@@ -138,30 +138,30 @@ can release extensions that are compatible with multiple major versions of Jupyt
 ### Bots
 
 
-**Semver label**: Whenever a PR has new commits, scan them for the semver label names in the messages, and if it finds any merge it with the existing, choosing the more breaking. Also look at special label like `feature:Bug` (patch) and `feature:Enhancement` (minor).
+**SemVer label**: Whenever a PR has new commits, scan them for the SemVer label names in the messages, and if it finds any merge it with the existing, choosing the more breaking. Also look at special label like `feature:Bug` (patch) and `feature:Enhancement` (minor).
 
 
-**Semver check**: Fail (and don't allow merging on this failure) on any PR that doesn't have one, and only one, of the `semver:patch`, `semver:minor`, `semver:major` labels.
+**SemVer check**: Fail (and don't allow merging on this failure) on any PR that doesn't have one, and only one, of the `semver:patch`, `semver:minor`, `semver:major` labels.
 
-**Create backports**: After a PR is merged into the `master` brnach, create backports for that release. It should target all other branches of the same increment according to the "PR Backports" logic above.
+**Create backports**: After a PR is merged into the `master` branch, create backports for that release. It should target all other branches of the same increment according to the "PR Backports" logic above.
 
 
-**Base check**: Verify that the semver label corresponds to the increment of the branch of the base, if it isn't master.
+**Base check**: Verify that the SemVer label corresponds to the increment of the branch of the base, if it isn't master.
 
 **Update/create milestone**: Set the milestone to the next final release of the base branch. Update after every change of base branch and after every commit on the base branch. Create the milestone if it does not exist.
 
 **Changelog Release Check**: On each release PR, fail if there are no new changelog entries in the branch.
 
-**Create Release PR**: After a new release is succesfull or when a new version branch is created, create other branches, in a fork of this repo, for each possible new release type. Run the command to bump all the JS versions properly for that release type, without actually publishing those versions. Also bump the Pyton version, without releaseing. Then open a PR to merge that branch into the original branch. We should also run the command to consolidate the documentation to a new release file.
+**Create Release PR**: After a new release is successful or when a new version branch is created, create other branches, in a fork of this repo, for each possible new release type. Run the command to bump all the JS versions properly for that release type, without actually publishing those versions. Also bump the Python version, without releasing. Then open a PR to merge that branch into the original branch. We should also run the command to consolidate the documentation to a new release file.
 
-**Test Release PR**: On each release PR, run a special test for verifying the release works. This works by running a verdaccio server, publishing the npm packages to that server, and then installing the Python package with that proxy server. Then a number of integration tests are run, like opening a notebook and running some cells. It should persist these built packages as artifacts on Github actions.
+**Test Release PR**: On each release PR, run a special test for verifying the release works. This works by running a Verdaccio server, publishing the NPM packages to that server, and then installing the Python package with that proxy server. Then a number of integration tests are run, like opening a notebook and running some cells. It should persist these built packages as artifacts on GitHub actions.
 
-**Do release**: Afte a release PR is merged, pull in the artifacts from the release PR and publish them to NPM and PyPi. Once that is successful it will push back tags for that release to the Github merge commit. 
+**Do release**: After a release PR is merged, pull in the artifacts from the release PR and publish them to NPM and PyPi. Once that is successful it will push back tags for that release to the GitHub merge commit. 
 
 
 **After final release, create new branches**: Once new tags have been pushed for a final release, create new branches based on the "Branches" logic above.
 
-**After latest final release, update other repos**: After a final release that is the latest release, by semver, open a PR to each cookiecutter repos, and other extension repos, to upgrade them. Post a link to these on the release PR.
+**After latest final release, update other repos**: After a final release that is the latest release, by SemVer, open a PR to each cookiecutter repos, and other extension repos, to upgrade them. Post a link to these on the release PR.
 
 **After release, create conda packages**: After any release, create a PR against the conda forge repo to release that version. It will create it on the same branch as the branch we made the release on in JupyterLab, on some fork of that repo. Post a link to this on the release PR.
 
@@ -172,4 +172,4 @@ can release extensions that are compatible with multiple major versions of Jupyt
 
 ## Further work:
 
-**Changelog bot**: Bot that helps you auto generate changelog entries from git commits or PR descriptions. Comment `bot:generate-changelog` in the PR to create one from the github issue contents. It will replace/create a changelog file using the title of the PR and the issue number. 
+**Changelog bot**: Bot that helps you auto generate changelog entries from git commits or PR descriptions. Comment `bot:generate-changelog` in the PR to create one from the GitHub issue contents. It will replace/create a changelog file using the title of the PR and the issue number. 
