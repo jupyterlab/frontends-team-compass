@@ -55,7 +55,7 @@ Each branch should be aligned to different releases:
 
 Each increment has a corresponding "latest" branch for the greatest working version. For example with two branches `2.x.0`, `1.x.0` the "latest" minor branch is `2.x.0`. The latest major branch is always `master`.
 
-*Note: We could instead have separate branches for each version, but this isn't necessarily if we are going by the **Single Active** assumption above.*
+*Note: We could instead have separate branches for each version, but this isn't necessary if we are going by the **Single Active** assumption above.*
 
 
 ### PR SemVer Tags
