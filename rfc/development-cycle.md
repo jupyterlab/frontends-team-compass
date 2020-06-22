@@ -7,9 +7,7 @@ This is meant to support our existing release cycles, not change them, but just 
 
 ## Assumptions
 
-I have found it helpful to try to first outline the assumptions of our release and development process.
-
-Please give feedback on these first.
+We start with a list of assumptions/guarantees to constrain the possible space of solutions. 
 
 You can consider these in addition to the [SemVer 2.0.0](https://semver.org/) spec, having more to do with the relations between the code evolution between multiple versions. They assume we are already following SemVer.
 
