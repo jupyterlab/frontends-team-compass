@@ -109,7 +109,7 @@ You can set it by either adding a commit with `semver:patch`, `semever:minor`, o
 
 **Milestone**: Don't touch this, it will be set automatically.
 
-**Branch base**: Normally don't touch this. However, if this PR is not meant for the latest release, but instead only for a backport to an older release, set the branch base to correspond to the branch you want to merge it against. For example if you have a fix only for the next 1.2.x release, but the latest SemVer release is 2.1.2, then use this label and set the base branch to `1.2.x`.
+**Branch base**: Normally don't touch this. However, if this PR is not meant for the latest release, but instead only for a backport to an older release, set the branch base to correspond to the branch you want to merge it against. For example if you have a fix only for the next 1.2.x release, but the latest SemVer release is 2.1.2, then set the base branch to `1.2.x`.
 
 
 ### Pull request merger
