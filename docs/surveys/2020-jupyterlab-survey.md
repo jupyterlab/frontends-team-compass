@@ -273,9 +273,9 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Don’t have the budget for more scalable environment/ cloud services.
     - Haven’t divided longer notebooks into multiple, modular notebooks.
     - Not persisting the outputs of a notebook.
-    - ML training jobs take too long.
+    - Machine learning training jobs take too long.
     - Can't call code/ modules from other notebooks.
-    - Managing Spark dependencies (Java) and connections.
+    - Difficulty managing Spark dependencies (Java).
 
     For each of the items above, specify:
     - Not a problem for me.	
