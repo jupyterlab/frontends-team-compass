@@ -164,18 +164,18 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Other (please specify)
 
 9. What data formats are you mostly working with? (pick up to 3)
-    - Tabular (csv, spreadsheet, database tables, parquet).
+    - Tabular (e.g. csv, spreadsheet, SQL tables, Parquet).
     - Images.
-    - Tensors (deep learning).
-    - Nested (JSON, NoSQL).
-    - Hierarchical Data Format (HDF5).
+    - Tensors (e.g. manually handling PyTorch, Tensorflow inputs).
+    - Nested (e.g. JSON, NoSQL document).
+    - Hierarchical Data Format (e.g. HDF5 or similar).
     - Time series.
     - Text.
     - Audio.
     - Video.
     - 3D/ CAD.
-    - Graph (nodes, edges).
-    - Spatial/ geographic (coordinates, GIS).
+    - Graph (e.g. nodes, edges).
+    - Spatial/ geographic (e.g. coordinates, GIS).
     - Game/ reinforcement simulation.
     - ❗Industry-specific file formats.
     - Other (please specify)
