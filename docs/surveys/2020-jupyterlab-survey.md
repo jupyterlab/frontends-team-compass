@@ -109,17 +109,17 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Other (please specify).
 
 7. What tasks do you need to perform and what tools do you use to accomplish them?
-    - Writing a software package.
+    - Cleaning and preparing data.
+    - Run pipelines, workflows, or ETL (extract, transform, load) jobs.
+    - Building a machine learning or statistical model.
+    - Creating content (e.g. blogs, books, education materials).
+    - Developing extensions/ plugins to solve my problems.
+    - Writing and running tests for software.
     - Visualize data in charts, plots, or dashboards.
     - Writing software documentation.
-    - Building a machine learning or statistical model.
-    - Cleaning and preparing data.
-    - Run pipelines, workflows, or ETL jobs.
-    - Developing extensions/ plugins to solve my problems.
     - Finding extensions/ plugins to solve my problems.
-    - Creating content (blogs).
+    - Writing a software package.
     - Documenting research (reports, scientific papers)
-    - Writing and running tests for software.
     - Other major use cases (please specify).
 
     For each of the items above, provide additional information related to:
