@@ -35,9 +35,11 @@
 
 3. What languages do you use in Jupyter? (pick up to 4)
     - C (and derivatives)
+    - Go
     - Groovy
     - Java
     - JavaScript
+    - Julia
     - NodeJS
     - Perl
     - PHP
