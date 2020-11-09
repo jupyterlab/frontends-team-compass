@@ -200,13 +200,13 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 
 11. What type of analysis are you running? (up to 4)
     - ❗I am not performing ML/statistical tasks.
-    - Regression (predict a numeric output).
-    - Classification (predict a categorical output).
-    - Generative/ auto-encode (create new data based on existing data).
-    - Reinforcement learning (actions that maximize a reward)
-    - Dimensionality reduction (PCA, K-Nearest Neighbors)
-    - Feature engineering (importance, extraction, selection, permutation).
-    - Natural language processing.
+    - Regression; predict a numeric output.
+    - Classification; predict a categorical output.
+    - Generative/ auto-encode; create new data based on existing data.
+    - Reinforcement learning; actions that maximize a reward.
+    - Dimensionality reduction (e.g. PCA, K-Nearest Neighbors)
+    - Feature engineering (e.g. importance, extraction, selection, permutation).
+    - Natural language processing (NLP).
     - Graph data science.
     - Outlier detection.
     - Other (please specify)
