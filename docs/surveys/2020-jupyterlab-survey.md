@@ -76,7 +76,7 @@
 and machine learning on your laptop/ desktop (non-cloud) for data science? (pick up to 3)
     - Atom.
     - Emacs.
-    - iPython.
+    - IPython.
     - Jupyter Notebook - Classic.
     - JupyterLab.
     - nteract.
@@ -96,7 +96,7 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Cloud service - Azure (e.g. Notebooks, ML Studio).
     - Cloud service - Databricks.
     - Cloud service - Google (e.g. AI Platform, Dataproc).
-    - Cloud service - IBM (e.g. Watson).
+    - Cloud service - IBM (e.g. Watson Studio).
     - CoCalc.
     - Google Colab.
     - HPC or on-premise server.
