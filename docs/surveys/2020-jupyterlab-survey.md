@@ -215,19 +215,19 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 ### Visualization
 
 12. What tools does your team use to create dashboards tools? (pick up to 3)
-    - ❗My team doesn’t create dashboard tools.
-    - Write our own in HTML & JS.
-    - R Shiny.
-    - Kibana.
     - Dash-Plotly.
-    - Voila.
-    - Tableau.
-    - Looker.
-    - Klipfolio.
     - Google Data Studio.
-    - Spotfire.
     - Grafana
-    - Other (please specify)
+    - Kibana.
+    - Klipfolio.
+    - Looker.
+    - R Shiny.
+    - Spotfire.
+    - Tableau.
+    - Voila.
+    - ❗I don't create dashboards.
+    - ❗I write my own in HTML & JS.
+    - Other (please specify).
 
 13. Do you experience these problems with visualization in Jupyter?
     - No built-in UI for creating charts.
