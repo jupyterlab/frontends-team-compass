@@ -348,14 +348,14 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - N/A - skip, don't know.
 
 20. Do you have challenges with the notebook UI?
-    - Poor autocompletion [LSP, show methods/ attributes].
+    - No progress bar for running long notebooks.
+    - No marketplace for Extensions (e.g. 5 star ratings, browsable categories).
+    - No global search.
+    - Can't collapse sections of a notebook hierarchically.
+    - Poor autocompletion (e.g. LSP, show methods/ attributes).
     - No modes for editing other Jupyter documents (MyST, Jupyter Book).
     - Can't see hidden (.) files in file browser.
-    - Can't collapse sections of a notebook hierarchically.
-    - No progress bar for running long notebooks.
     - Don't know which cell failed in long notebook.
-    - No Extension marketplace (5 star ratings, categories).
-    - No global search.
     
     For each of the items above, specify:
     - Not a problem for me.	
