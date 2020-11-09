@@ -287,7 +287,7 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 
 ### Collaboration
 
-16. With how many other people are you collaborating?
+16. When it comes to working on notebooks in a team setting, with how many other people are you collaborating?
     - 0
     - 10
     - 20
