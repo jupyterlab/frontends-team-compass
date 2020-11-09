@@ -370,4 +370,5 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 21. Open feedback for problems/ pain points you didn't get to share.
 
 
-22. Email Address for Recontact - Do we have your permission to recontact you for a user interview? (If not, leave this question blank.)
+22. Optional - email address for recontact. Do we have your permission to recontact you for a user interview? 
+    We're looking for qualitative feedback on JupyterLab, JupyterHub, and the JupyterLab developer experience.
