@@ -1,13 +1,19 @@
 # JupyterLab
 
- - Even if you don't use Jupyter, you can still take this survey. Just indicate this fact in the first question and carry on as best as you can.
- - Thank you - your participation guides Jupyter's roadmap toward your real-life use cases.
- - So that you know what to expect, it's comprised of 20 questions (#7 is the only big one) spread across these sections:
+ - Even if you don't use Jupyter, you can still take this survey. Just indicate this fact in the first question 
+   and carry on as best as you can.
+ - Thank you. Your participation guides Jupyter's roadmap toward your real-life use cases by quantifiably 
+   helping us prioritize the functionality that is important to our userbase. 
+ - So that you know what to expect, it's comprised of 20 questions spread across the sections below. 
+   As a fair heads up, Question 7  is the biggest one, but it provides critical information.
     - Usage patterns.
     - Data
     - Visualization.
     - Scale.
     - Collaboration.
+ - The aggregate survey data itself will be openly shared with the Jupyter community when polling closes in mid-December.
+   If you opt to provide your email address for a user interview, it not be used for Jupyter's promotional purposes and 
+   it will not be shared with a 3rd party.
 
 
 ### Usage Patterns
