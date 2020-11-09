@@ -180,13 +180,14 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - ❗Industry-specific file formats.
     - Other (please specify)
 
-10. Do you experience these problems with data in Jupyter? (rate from scale of 0-4)
-    - Data is too big to fit into memory on my machine/ server.
-    - Can’t see a list of my current variables.
-    - Poor MVC/ ORM integrations (Django, Flask).
-    - Managing database/ source connections and secrets.
+10. Do you experience these **problems with data** in Jupyter? (rate from scale of 0-4)
     - No grid view for manipulating/ filtering dataframes and arrays.
+    - Can’t see a list of my current variables.
+    - Plaintext or environment variable management of database passwords/ keys/ secrets.
     - Lost data during failure or restart of kernel/ server.
+    - Data is too big to fit into memory on my machine/ server.
+    - Poor MVC/ ORM integrations (e.g. Django, Flask).
+    - Managing database/ source connections and secrets.
     - Other (please specify)
     
     For each of the items above, specify:
