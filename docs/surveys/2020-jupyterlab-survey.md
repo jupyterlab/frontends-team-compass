@@ -19,8 +19,8 @@
 ### Usage Patterns
 
 1. How frequently do you use Jupyter?
-    - Daily: 4 or more hours per day.
-    - Daily: 3 or less hours per day. 
+    - Daily - heavy usage; 3+ hours per day.
+    - Daily - moderate usage; less than 3 hours per day.
     - Weekly.
     - Monthly.
     - I no longer use Jupyter.
