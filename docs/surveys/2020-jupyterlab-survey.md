@@ -147,21 +147,21 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 ### Data
 
 8. What data sources are you primarily working with in your role? (pick up to 3)
-    - My local file system (e.g. files and folder on local machine).
+    - 🖥️ My local file system (e.g. files and folder on local machine).
     - File system (e.g. HPC, EBS/EFS, JupyterHub volumes).
     - Cloud object storage (e.g. buckets, S3, Blob, GS).
-    - SQL (e.g. PostgreSQL, MySQL)
-    - SQL - embedded (e.g. SQLite)
+    - SQL (e.g. PostgreSQL, MySQL).
+    - SQL - embedded (e.g. SQLite).
     - NoSQL - columnar store (e.g. Parquet, Arrow, HDFS, BigQuery).
-    - NoSQL - document store (e.g. MongoDB, Elasticsearch, CouchDB).
-    - Graph database (Neo4j, TigerGraph).
+    - NoSQL - document store (e.g. MongoDB, Elasticsearch, DynamoDB).
+    - Graph database (e.g. Neo4j, TigerGraph).
     - Time Series (e.g. InfluxDB).
-    - Pub sub (e.g. Kafka, Druid).
+    - Pub/ sub (e.g. Apache Kafka, Druid).
     - Key value (e.g. Redis, MemcacheDB).
     - Google Sheets.
     - ❗Industry or field specific APIs.
     - Streaming.
-    - Other (please specify)
+    - Other (please specify).
 
 9. What data formats are you mostly working with? (pick up to 3)
     - Tabular (e.g. csv, spreadsheet, SQL tables, Parquet).
@@ -247,25 +247,25 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 ### Scale
 
 14. How do you scale and schedule your workloads? (up to 4)
-    - Cluster - Jupyter Enterprise Gateway.
-    - Cluster - Kubernetes (or similar e.g. Mesos, Swarm, Slurm).
-    - Cluster - Spark (or similar e.g. Hadoop, Dask).
-    - Elyra.
-    - Horovod.
-    - Jupyter BinderHub.
-    - Kubeflow.
-    - Quantum (e.g. D-Wave).
-    - Server - Cloud (e.g. AWS EC2).
-    - Server - On premise HPC/ data center.
-    - Service - Cloud Queries (e.g. AWS Presto, AWS Athena).
-    - Service - ML/ AI (e.g. AWS SageMaker).
-    - Workflow - Airflow.
-    - Workflow - Cloud service (e.g. AWS Batch).
-    - Workflow - Nextflow, WDL, CWL.
-    - Workflow - Papermill.
-    - Workflow - Snakemake.
-    - ❓I need to scale, but don't know how.
     - 🖥️ They run just fine on my local machine.
+    - ❓I need to scale, but don't know how.
+    - Server - On premise HPC/ data center.
+    - Server - Cloud (e.g. AWS EC2).
+    - Service - ML/ AI (e.g. AWS SageMaker).
+    - Cluster - Spark (or similar e.g. Hadoop, Dask).
+    - Cluster - Kubernetes (or similar e.g. Mesos, Swarm, Slurm).
+    - Cluster - Jupyter Enterprise Gateway.
+    - Jupyter BinderHub.
+    - Quantum (e.g. D-Wave).
+    - Horovod.
+    - Kubeflow.
+    - Elyra.
+    - Workflow - Snakemake.
+    - Workflow - Papermill.
+    - Workflow - Nextflow, WDL, CWL.
+    - Workflow - Apache Airflow.
+    - Workflow - Cloud service (e.g. AWS Batch).
+    - Service - Cloud Queries (e.g. AWS Presto, AWS Athena).
     - Other (please specify).
 
 15. Do you experience these problems with scale in Jupyter?
