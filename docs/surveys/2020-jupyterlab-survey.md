@@ -74,20 +74,20 @@
 
 5. What are your go-to tools for performing data science, scientific computing, 
 and machine learning on your laptop/ desktop (non-cloud) for data science? (pick up to 3)
-    - Spyder.
-    - PyCharm.
-    - nteract.
     - Atom.
     - Emacs.
-    - Zeppelin.
     - iPython.
-    - VS Code.
-    - JupyterLab
+    - Jupyter Notebook - Classic.
+    - JupyterLab.
+    - nteract.
+    - PyCharm.
     - RStudio.
-    - Jupyter Notebook (classic)
-    - Vim.
+    - Spyder.
     - Sublime Text.
-    - Other (please specify)
+    - Vim.
+    - VS Code.
+    - Zeppelin.
+    - Other (please specify).
 
 6. How do you run and/ or access Jupyter? (pick up to 4)
     - Run directly on local machine (laptop, desktop).
