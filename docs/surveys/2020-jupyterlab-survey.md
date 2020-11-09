@@ -335,9 +335,9 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Don't know what dependencies (versions of language, packages, extensions) a notebook uses.
     - Don't know/ have the data a notebook is supposed to use.
     - Poor support for our version control (git) system.
-    - Publishing my notebook to a shared location.
+    - No built-in way to publish my notebook to a shared location.
     - Not being able to comment on notebooks.
-    - More robust non-git version history of a notebook.
+    - No "track changes;" can't figure out what changed between notebook checkpoints/ versions.
 
     For each of the items above, specify:
     - Not a problem for me.	
