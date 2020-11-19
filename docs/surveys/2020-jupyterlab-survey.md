@@ -249,10 +249,11 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 14. How do you scale and schedule your workloads? (up to 4)
     - 🖥️ They run just fine on my local machine.
     - ❓I need to scale, but don't know how.
-    - Server - On premise HPC/ data center.
-    - Server - Cloud (e.g. AWS EC2).
-    - Service - ML/ AI (e.g. AWS SageMaker).
-    - Cluster - Spark (or similar e.g. Hadoop, Dask).
+    - Server - on premise HPC/ data center.
+    - Server - cloud (e.g. AWS EC2).
+    - Cloud ML/ AI (e.g. AWS SageMaker, IBM Wastson Studio).
+    - Cluster - Spark and/ Hadoop.
+    - Cluster - Dask.
     - Cluster - Kubernetes (or similar e.g. Mesos, Swarm, Slurm).
     - Cluster - Jupyter Enterprise Gateway.
     - Jupyter BinderHub.
@@ -260,12 +261,13 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Horovod.
     - Kubeflow.
     - Elyra.
-    - Workflow - Snakemake.
-    - Workflow - Papermill.
-    - Workflow - Nextflow, WDL, CWL.
-    - Workflow - Apache Airflow.
-    - Workflow - Cloud service (e.g. AWS Batch).
-    - Service - Cloud Queries (e.g. AWS Presto, AWS Athena).
+    - Snakemake.
+    - Papermill.
+    - CWL, Nextflow, and/ or WDL.
+    - Apache Airflow.
+    - Prefect.
+    - Cloud pipelines (e.g. AWS Batch).
+    - Cloud queries (e.g. AWS Presto, AWS Athena).
     - Other (please specify).
 
 15. Do you experience these problems with scale in Jupyter?
