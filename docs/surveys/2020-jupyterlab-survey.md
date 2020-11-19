@@ -198,7 +198,7 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Critical.	
     - N/A - skip, don't know.
 
-11. What type of analysis are you running? (up to 4)
+11. What type of analysis are you running? (pick up to 4)
     - ❗I am not performing ML/statistical tasks.
     - Regression; predict a numeric output.
     - Classification; predict a categorical output.
@@ -246,7 +246,7 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
 
 ### Scale
 
-14. How do you scale and schedule your workloads? (up to 4)
+14. How do you scale and schedule your workloads? (pick up to 4)
     - 🖥️ They run just fine on my local machine.
     - ❓I need to scale, but don't know how.
     - Server - on premise HPC/ data center.
@@ -297,7 +297,7 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - 40
     - 50+
 
-17. What is your reason for sharing a notebook with someone else? (up to 3)
+17. What is your reason for sharing a notebook with someone else? (pick up to 3)
     - ❗I am not working with other people.
     - Share knowledge.
     - Feedback about my writing.
