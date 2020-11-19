@@ -229,7 +229,7 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - No built-in UI for creating charts.
     - Can't publish my charts as web-based dashboards.
     - Poor/ buggy support for my plotting tool.
-    - Displaying highly dimensional data (e.g. array of array of arrays, too many rows/ columns to fit on screen).
+    - Difficulty displaying highly dimensional data (e.g. array of array of arrays, too many rows/ columns to fit on screen).
     - Lacking templating support (Jinja2)
 
     For each of the items above, specify:
