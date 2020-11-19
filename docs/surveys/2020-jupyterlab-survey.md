@@ -12,7 +12,7 @@
     - Scale.
     - Collaboration.
  - The aggregate survey data itself will be openly shared with the Jupyter community when polling closes in mid-December.
-   If you opt to provide your email address for a user interview, it not be used for Jupyter's promotional purposes and 
+   If you opt to provide your email address for a user interview, it will not be used for Jupyter's promotional purposes and 
    it will not be shared with a 3rd party.
 
 
