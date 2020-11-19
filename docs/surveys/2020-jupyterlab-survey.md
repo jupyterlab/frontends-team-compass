@@ -90,22 +90,22 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
     - Other (please specify).
 
 6. How do you run and/ or access Jupyter? (pick up to 4)
-    - BinderHub / MyBinder.
+    - 🖥️ Run directly on local machine (e.g. laptop, desktop).
+    - Through a Python virtual environment (e.g. conda, virtualenv).
+    - Through Docker.
+    - HPC or on-premise server.
     - Cloud server (e.g. AWS EC2).
+    - JupyterHub.
+    - BinderHub / MyBinder.
     - Cloud service - AWS (e.g. EMR, SageMaker).
     - Cloud service - Azure (e.g. Notebooks, ML Studio).
     - Cloud service - Databricks.
     - Cloud service - Google (e.g. AI Platform, Dataproc).
     - Cloud service - IBM (e.g. Watson Studio).
-    - CoCalc.
     - Google Colab.
-    - HPC or on-premise server.
-    - JupyterHub.
+    - CoCalc.
     - Mobile device (e.g. phone, tablet). Comments welcome.
-    - Through a Python virtual environment (e.g. conda, virtualenv).
-    - Through Docker.
     - ❓Don’t know how, I just go to a URL.
-    - 🖥️ Run directly on local machine (e.g. laptop, desktop).
     - Other (please specify).
 
 7. What tasks do you need to perform and what tools do you use to accomplish them?
