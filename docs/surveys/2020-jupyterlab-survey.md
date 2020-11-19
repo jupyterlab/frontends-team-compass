@@ -131,18 +131,14 @@ and machine learning on your laptop/ desktop (non-cloud) for data science? (pick
         - Daily.
     - To what degree does Jupyter meet your expectations for this?
         - Does not apply.
-        - Never meets.
-        - Rarely meets.
-        - Sometimes meets.
-        - Often exceeds.
-        - Always exceeds.
+        - No.
+        - Neutral.
+        - Yes.
     - To what degree do alternative tools meet your expectations for this?
         - Does not apply.
-        - Never meets.
-        - Rarely meets.
-        - Sometimes meets.
-        - Often exceeds.
-        - Always exceeds.
+        - No.
+        - Neutral.
+        - Yes.
 
 ### Data
 
