@@ -3,3 +3,5 @@
 # PyCharm
 .idea/
 *.iml
+docs/insights/titles_cloud.png
+.ipynb_checkpoints/
