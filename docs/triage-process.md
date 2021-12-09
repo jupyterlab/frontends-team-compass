@@ -34,10 +34,3 @@ Once triaged, if the item is ready, the reviewer should remove the `needs-triage
 
 With one hour or less of triage time per contributor per week, we should be able to triage all current and future issues in a timely manner. Our expectation is that every new item should be examined within a week of its creation.
 
-# Next steps
-
-Tag all current items in the issues list with `needs-triage`.
-
-Set recurring times to review items at a convenient time for each contributor.
-
-Track how many items are currently labeled with `needs-triage` and `needs-requester-info`, including the ages of each. Report on these metrics regularly such as at our weekly team meetings.
