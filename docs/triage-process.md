@@ -1,5 +1,13 @@
 An issue that is **ready** can be picked up and worked on with high confidence that we will accept it into the project.
 
+# Triage process summary checklist
+
+- [ ] Read the item
+- [ ] Search the existing issues and mark it as a duplicate if necessary
+- [ ] If additional information is required, add a comment requesting it
+- [ ] If the item is ready to be worked on, assign it to a milestone
+- [ ] Apply appropriate labels to the item (see examples below)
+
 # Definition of ready
 
 **All requested information, where applicable, is provided.** From the templates in JupyterLab’s issues:
