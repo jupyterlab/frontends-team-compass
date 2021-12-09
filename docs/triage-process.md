@@ -32,5 +32,5 @@ On a regular basis, Jupyter contributors should review JupyterLab items tagged w
 
 Once triaged, if the item is ready, the reviewer should remove the `needs-triage` label; no additional label is required. If there is not enough information in the item as filed, the triage reviewer should apply the `needs-requester-info` label and leave `needs-triage` in place. If an item has remained in `needs-requester-info` for more than 14 days without any follow-up communication, it should be closed due to insufficient detail.
 
-With one hour or less of triage time per contributor per week, we should be able to triage all current and future issues in a timely manner. Our expectation is that every new item should be examined within a week of its creation.
+Our expectation is that every new item should be examined within a week of its creation.
 
