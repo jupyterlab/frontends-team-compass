@@ -34,11 +34,11 @@ For a **feature request**:
 
 # Triage process
 
-A bot applies the `Status: Needs Triage` label to all new bugs and enhancement requests as they are filed.
+A bot applies the `status: Needs Triage` label to all new bugs and enhancement requests as they are filed.
 
-On a regular basis, Jupyter contributors should review JupyterLab items tagged with `Status: Needs Triage`, starting with the oldest, and determine whether they meet the definition of ready.
+On a regular basis, Jupyter contributors should review JupyterLab items tagged with `status: Needs Triage`, starting with the oldest, and determine whether they meet the definition of ready.
 
-Once triaged, if the item is ready, the reviewer should remove the `Status: Needs Triage` label; no additional label is required. If there is not enough information in the item as filed, the triage reviewer should apply the `Status: Needs Info` label and leave `Status: Needs Triage` in place. If an item has remained in `Status: Needs Info` for more than 14 days without any follow-up communication, the reviewer should apply `status: Blocked`. A blocked item should be closed after another 14 days pass without a reply that unblocks it.
+Once triaged, if the item is ready, the reviewer should remove the `status: Needs Triage` label; no additional label is required. If there is not enough information in the item as filed, the triage reviewer should apply the `status: Needs Info` label and leave `status: Needs Triage` in place. If an item has remained in `status: Needs Info` for more than 14 days without any follow-up communication, the reviewer should apply `status: Blocked`. A blocked item should be closed after another 14 days pass without a reply that unblocks it.
 
 Our expectation is that every new item should be examined within a week of its creation.
 
