@@ -2,8 +2,13 @@
 
 A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.
 
-## Weekly Developer Meeting
-Weekly Developer Meetings take place on [zoom](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09), on Wednesdays at 9AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=9%3A00%20am&tz=San%20Francisco)). Minutes will be taken at [Hackmd.io](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg). Each week an issue will be opened with that week's meeting minutes and the issue from the previous week will be closed. 
+## Weekly developer meeting
+Weekly developer meetings take place on the [Jupyter Zoom room](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) on Wednesdays at 9:00 AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=9%3A00%20am&tz=San%20Francisco)). Minutes will be taken at [Hackmd.io](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg). Each meeting's minutes will be added as a comment to an issue in this project.
+
+## Weekly triage meeting
+Weekly triage meetings take place on the [Jupyter Zoom room](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) on Thursdays at 10:00 AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=10%3A00%20am&tz=San%20Francisco)). Minutes will be taken at [Hackmd.io](https://hackmd.io/HaQ3S_nPSbqaRtk9rj59iA). Each meeting's minutes will be added as a comment to an issue in this project.
+
+Each meeting's minutes will be added as a comment to an issue in this project.
 
 ## Code of Conduct
 As an official Jupyter Project, all communication across all repositories in this organization should adhere to the [Project Jupyter Code of Conduct.](https://github.com/jupyter/governance/blob/master/conduct/code_of_conduct.md)
