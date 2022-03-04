@@ -2,11 +2,11 @@
 
 A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.
 
-## Weekly developer meeting
-Weekly developer meetings take place on the [Jupyter Zoom room](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) on Wednesdays at 9:00 AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=9%3A00%20am&tz=San%20Francisco)). Minutes will be taken at [Hackmd.io](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg). Each meeting's minutes will be added as a comment to an issue in this project.
+## Weekly JupyterLab team meeting
+Weekly team meetings take place on the [Jupyter Zoom room](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) on Wednesdays at 9:00 AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=9%3A00%20am&tz=San%20Francisco)). Minutes will be taken at [Hackmd.io](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg). Each meeting's minutes will be added as a comment to an issue in this project.
 
-## Weekly triage meeting
-Weekly triage meetings take place on the [Jupyter Zoom room](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) on Thursdays at 10:00 AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=10%3A00%20am&tz=San%20Francisco)). Minutes will be taken at [Hackmd.io](https://hackmd.io/HaQ3S_nPSbqaRtk9rj59iA). Each meeting's minutes will be added as a comment to an issue in this project.
+## Weekly Jupyter triage meeting
+Weekly triage meetings take place on the [Jupyter Zoom room](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) on Thursdays at 10:00 AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=10%3A00%20am&tz=San%20Francisco)). We look at [JupyterLab issues that need triage](https://github.com/jupyterlab/jupyterlab/labels/status%3ANeeds%20Triage) and [Jupyter Notebook issues](https://github.com/jupyter/notebook/issues/). Minutes will be taken at [Hackmd.io](https://hackmd.io/HaQ3S_nPSbqaRtk9rj59iA). Each meeting's minutes will be added as a comment to an issue in this project.
 
 Each meeting's minutes will be added as a comment to an issue in this project.
 
