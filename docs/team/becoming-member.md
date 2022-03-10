@@ -36,7 +36,7 @@ For example, a member who is going out on a long leave/vacation (>2 weeks) can t
 For someone to become a JupyterLab Council member, they should already be a consistent,
 positive, productive member of the community. Newcomers are encouraged to
 become members after they've shown a sustained interest in
-engaging with the community. Moreover, team members should be interested in
+engaging with the community. Moreover, council members should be interested in
 **continuing their engagement** over a long-ish period of time (at least one year), generally
 putting in more time and effort than non-members. This doesn't have to
 mean contributing code - it can be assisting others in forums/issues, reviewing
