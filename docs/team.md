@@ -4,7 +4,7 @@ This page lists (alphabetically) the officially named JupyterLab Council.
 
 ## Active members
 
-Active team members are actively participating in the development, maintenance, planning, and discussion around projects in the JupyterLab Github organization.
+Active council members are actively participating in the development, maintenance, planning, and discussion around projects in the JupyterLab Github organization.
 
 ```{eval-rst}
 
