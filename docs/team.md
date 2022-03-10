@@ -14,7 +14,7 @@ Active team members are actively participating in the development, maintenance, 
 
 ## Inactive members
 
-Inactive team members are (temporarily or not) pausing their active participation in the JupyterLab community. They can reactivate themselves at any point in the future; it does not require a nomination by a current active member.
+Inactive council members are (temporarily or not) pausing their active participation in the JupyterLab community. They can reactivate themselves at any point in the future; it does not require a nomination by a current active member.
 
 ```{eval-rst}
 
