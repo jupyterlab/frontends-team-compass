@@ -1,0 +1,6 @@
+sphinx>=3
+sphinx_copybutton
+sphinx_book_theme
+pandas
+ruamel.yaml
+myst_parser

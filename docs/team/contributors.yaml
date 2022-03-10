@@ -1,0 +1,72 @@
+# Active Team members
+# Use ALPHABETICAL (BY LAST NAME) ORDER please :-)
+
+# - name: Joe/Jane
+#   handle: "@joe-jane"
+#   affiliation: Jupyter
+#   team: active
+#   last-check-in: 2022-1
+
+
+- name: Damián Avila
+  handle: "@damianavila"
+  affiliation: UMSI and 2i2c
+  team: active
+  last-check-in: 2022-03
+
+- name: Martha Cryan
+  handle: "@marthacryan"
+  affiliation: IBM CODAIT
+  team: active
+  last-check-in: 2022-03
+
+- name: Afshin Darian
+  handle: "@afshin"
+  affiliation: Two Sigma
+  team: active
+  last-check-in: 2022-03
+
+- name: Brian Granger
+  handle: "@ellisonbg"
+  affiliation: Amazon Web Services
+  team: active
+  last-check-in: 2022-03
+
+- name: Jason Grout
+  handle: "@jasongrout"
+  affiliation: Databricks
+  team: active
+  last-check-in: 2022-03
+
+- name: Paul Ivanov
+  handle: "@ivanov"
+  affiliation: Noteable
+  team: active
+  last-check-in: 2022-03
+
+- name: Michał Krassowski
+  handle: "@krassowski"
+  affiliation: University of Oxford
+  team: active
+  last-check-in: 2022-03
+
+- name: Fernando Perez
+  handle: "@fperez"
+  affiliation: University of California, Berkeley
+  team: active
+  last-check-in: 2022-03
+
+- name: Isabela Presedo-Floyed
+  handle: "@isabela-pf"
+  affiliation: Quansight
+  team: active
+  last-check-in: 2022-03
+
+- name: Jeremy Tuloup
+  handle: "@jtpio"
+  affiliation: Quantstack
+  team: active
+  last-check-in: 2022-03
+
+
+# Inactive team members at the end, also alphabetical
