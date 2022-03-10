@@ -57,6 +57,6 @@ This process takes the following steps:
 
 ## Membership Maintenance
 
-Every six months, one currently active member should open an issue in the team-compass repo asking all currently active team members to reply if they still consider themselves active. If not (or no response is given by a team member), it will be assumed that they have gone inactive. This will help keep the active team up-to-date.
+Every six months, one currently active member should open an issue in the team-compass repo asking all currently active team members to reply if they still consider themselves active. If not (or no response is given by a team member), it will be assumed that they have gone inactive. This will help keep the active member list up-to-date.
 
 Remember, an inactive member can return at any time by simply changing their status on the team-compass page.
