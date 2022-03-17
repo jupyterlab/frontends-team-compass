@@ -14,6 +14,12 @@
   team: active
   last-check-in: 2022-03
 
+- name: Mehmet Bektas
+  handle: "@mbektas"
+  affiliation: Netflix
+  team: active
+  last-check-in: 2022-03
+
 - name: Martha Cryan
   handle: "@marthacryan"
   affiliation: IBM CODAIT
