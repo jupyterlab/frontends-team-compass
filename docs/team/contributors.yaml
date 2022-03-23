@@ -68,6 +68,12 @@
   team: active
   last-check-in: 2022-03
 
+- name: Steve Silvester
+  handle: "@blink1073"
+  affiliation: MongoDB
+  team: active
+  last-check-in: 2022-03
+
 - name: Jeremy Tuloup
   handle: "@jtpio"
   affiliation: Quantstack
