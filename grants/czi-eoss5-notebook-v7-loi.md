@@ -68,9 +68,8 @@ Except nteract and VSCode, the other tools are being developed by companies that
 ## Previous CZI funding:
 
 - Did you previously apply for funding for this or a related proposal under the CZI EOSS program? Select Yes or No.
-  - No - but there have been other proposal funded by CZI EOSS for Jupyter tools
-
-> TODO complete the list
+  - No - but there have been other proposal funded by CZI EOSS for Jupyter tools ([JupyterHub Fellow Program - EOSS-0000000142](https://chanzuckerberg.com/eoss/proposals/jupyterhub-contributor-in-residence-program/), [Real-Time collaboration - EOSS2-0000000084](https://chanzuckerberg.com/eoss/proposals/real-time-collaboration-in-jupyter/), [Accessibility - EOSS4](https://chanzuckerberg.com/eoss/proposals/inclusive-and-accessible-scientific-computing-in-the-jupyter-ecosystem/)
+)
 
 - Have you previously received funding for this proposal under the CZI EOSS program? Select Yes or No.
   - No
