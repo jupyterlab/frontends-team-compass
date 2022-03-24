@@ -8,7 +8,7 @@ $400,000 USD
 
 ## Proposal Summary/Scope of Work: Provide a short summary of the work being proposed (maximum of 500 words).
 
-JupyterLab and Classical Notebook are the two major user interfaces to manipulate the Jupyter notebook documents. That format is really popular within the scientific community thanks to its ability to bring code, data analysis and visualization in a single document.
+JupyterLab and the Classic Notebook are the two major user interfaces to manipulate the Jupyter notebook documents. That format is really popular within the scientific community thanks to its ability to bring code, data analysis and visualization in a single document.
 
 This proposal follows the major the upcoming major version of the Classical Notebook will be built on top of JupyterLab plugins (that use newer web technologies). The three key ideas approved in the related migration enhancement proposal are: document-centric user experience, extensions are critical to the community and existing educational content relies on the current Notebook experience. The user interface changes try to be limited (although new features will require adaptation). But the extension API will be totally different.
 
