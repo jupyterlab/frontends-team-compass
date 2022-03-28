@@ -20,6 +20,12 @@
   team: active
   last-check-in: 2022-03
 
+- name: Frédéric Collonval
+  handle: "@fcollonval"
+  affiliation: QuantStack
+  team: active
+  last-check-in: 2022-03
+
 - name: Martha Cryan
   handle: "@marthacryan"
   affiliation: IBM CODAIT
