@@ -8,20 +8,26 @@ $400,000 USD
 
 ## Proposal Summary/Scope of Work: Provide a short summary of the work being proposed (maximum of 500 words).
 
-JupyterLab and the Classic Notebook are the two major user interfaces to manipulate the Jupyter notebook documents. That format is really popular within the scientific community thanks to its ability to bring code, data analysis and visualization in a single document.
+JupyterLab and the Classic Notebook are the two major user interfaces to manipulate Jupyter notebook documents. This document format is popular within the scientific community because it brings code, data analysis, and visualization together in one document.
 
-This proposal follows the major the upcoming major version of the Classical Notebook will be built on top of JupyterLab plugins (that use newer web technologies). The three key ideas approved in the related migration enhancement proposal are: document-centric user experience, extensions are critical to the community and existing educational content relies on the current Notebook experience. The user interface changes try to be limited (although new features will require adaptation). But the extension API will be totally different.
+This proposal is for the upcoming major version of the Classic Notebook that will be built with JupyterLab plugins that use newer web technologies. The three key ideas approved in the related migration enhancement proposal are:
 
-As maintenance is mainly done by a couple of volunteers during their free time. The backlog of issues is ever growing due to the lack of manpower. Addressing that, supporting extensions migration and the new user issues for the new version will require an important effort.
+1. Document-centric user experience
+2. Extensions are critical to the community
+3. Existing educational content relies on the current Notebook experience
+
+We will try to minimize the user interface changes although new features will require adaptation. The extension API will be totally different.
+
+The backlog of issues is growing because maintenance is done by only a couple of volunteers during their spare time. It is important to address this backlog by supporting extensions migration and by anticipating new user issues for the new software versions.
 
 To mitigate those points, the actions in the grant frame can be grouped into two categories: documentation and code base. Here are the lists of envisaged actions in priority order.
 
 - Documentation
   - Generate screencasts automatically.
   - Today the screencasts are recorded manually and published on YouTube. This complicates their updates, their translation and their availability for educators.
-  - To produce screencasts we will create a set of helpers to emulate keyboard and mouse interactions (to be published as a stand-alone package to allow its usage in other projects). Then the video scenarii will need to be defined. And finally an automatic workflow to generate the videos will be set up.
-  - Refactor the existing documentation focusing on
-    - Reduce fragmentation of the documentation spread it multiple websites
+  - To produce screencasts, we will create a set of helpers to emulate keyboard and mouse interactions (to be published as a stand-alone package to allow its usage in other projects). Then, we will need to define the video scenarios. Finally, we will set up an automatic workflow to generate the videos.
+  - Refactor the existing documentation, focusing on:
+    - Centralize documentation that is currently spread across multiple websites
     - Focus on improving the documentation for new contributors and plugin developers starting from scratch or migrating from the old classical notebook extension paradigm.
     - Reorganizing the documentation following the four pillars approaches: tutorials, how-to guides, technical reference and explanation.
   - Set up an internationalized documentation website to gather the community around a common documentation source reducing educators' effort to produce their own contents.
@@ -37,7 +43,7 @@ To mitigate those points, the actions in the grant frame can be grouped into two
 
 JupyterLab and Notebook are primary tools used for biomedical science education, research, and manufacturing. Their interface provides a set of tools allowing users to work with code and data in a common document. Jupyter’s growth in schools, universities and laboratories speak to the value of these technologies in science.
 Moving to newer technologies for the classical notebook is required to ensure the maintenance cost stays manageable and the tool will keep up with new browser features and requirements.
-Keeping improving the tool focusing on research code documentation will improve spreading research results and understanding of the new discoveries.
+Keep improving the tool, focusing on research code documentation, to facilitate sharing research results and to foster an understanding of new discoveries.
 
 ## Open Source Software Projects: Indicate the number of software projects involved in your proposal (up to five).
 
