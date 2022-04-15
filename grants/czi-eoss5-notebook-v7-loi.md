@@ -1,6 +1,6 @@
 ## Proposal Title: Auto-filled; Maximum of 60 characters, including spaces.
 
-Jupyter Notebook maintenance and community support for v4 migration.
+Jupyter Notebook maintenance and community support.
 
 ## Amount Requested: Total budget amount requested in USD, including indirect costs; this number should be between $100,000 USD and $400,000 USD total costs over a two-year period.
 
