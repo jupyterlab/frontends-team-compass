@@ -20,6 +20,12 @@
   team: active
   last-check-in: 2022-03
 
+- name: Alex Bozarth
+  handle: "@ajbozarth"
+  affiliation: IBM CODAIT
+  team: active
+  last-check-in: 2022-05
+
 - name: Frédéric Collonval
   handle: "@fcollonval"
   affiliation: QuantStack
