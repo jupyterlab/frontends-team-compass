@@ -3,3 +3,8 @@
 # PyCharm
 .idea/
 *.iml
+
+# docs generated files
+_build
+docs/team/active.txt
+docs/team/inactive.txt
