@@ -92,5 +92,10 @@
   team: active
   last-check-in: 2022-03
 
+- name: Jason Weill
+  handle: "@jweill-aws"
+  affiliation: Amazon Web Services
+  team: active
+  last-check-in: 2022-07
 
 # Inactive council members at the end, also alphabetical
