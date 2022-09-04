@@ -103,5 +103,11 @@
   affiliation: Amazon Web Services
   team: active
   last-check-in: 2022-07
+  
+- name: Jessica Xu
+  handle: "@jess-x"
+  affiliation: Quansight
+  team: active
+  last-check-in: 2022-09
 
 # Inactive council members at the end, also alphabetical
