@@ -26,6 +26,12 @@
   team: active
   last-check-in: 2022-10
 
+- name: Eric Charles
+  handle: "@echarles"
+  affiliation: Datalayer
+  team: active
+  last-check-in: 2023-03
+
 - name: Frédéric Collonval
   handle: "@fcollonval"
   affiliation: QuantStack
