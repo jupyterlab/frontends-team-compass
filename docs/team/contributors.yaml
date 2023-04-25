@@ -75,6 +75,12 @@
   team: active
   last-check-in: 2022-10
 
+- name: Andrii Ieroshenko 
+  handle: "@andrii-i"
+  affiliation: Amazon Web Services
+  team: active
+  last-check-in: 2023-04
+
 - name: Paul Ivanov
   handle: "@ivanov"
   affiliation: Noteable
