@@ -56,6 +56,12 @@
   team: active
   last-check-in: 2022-10
 
+- name: Eric Gentry
+  handle: "@ericsnekbytes"
+  affiliation: Anaconda
+  team: active
+  last-check-in: 2023-06
+
 - name: Brian Granger
   handle: "@ellisonbg"
   affiliation: Amazon Web Services
@@ -67,7 +73,6 @@
   affiliation: Databricks
   team: active
   last-check-in: 2022-10
-
 
 - name: Carlos Herrero
   handle: "@hbcarlos"
