@@ -75,7 +75,7 @@ Any JupyterLab Council member can ask to be part of the release team using the w
 
 ### Release team responsibilities
 
-Release team member are granting the following rights:
+Release team members can manage the following teams:
 
 - GitHub JupyterLab organization: membership of the [release team](https://github.com/orgs/jupyterlab/teams/release)
 - PyPI Jupyter organization: manager of the [JupyterLab team](https://pypi.org/manage/organization/jupyter/team/jupyterlab)
