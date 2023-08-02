@@ -1,6 +1,6 @@
-# Becoming a JupyterLab team member
+# Becoming a JupyterLab Council member
 
-This document describe first how to become a council member. Then the two subgroups of JupyterLab Council member will be specified:
+This document describes how to become a council member. It includes information about the two subgroups of JupyterLab Council members:
 - The release group (see [Release team member](#release-team-member))
 - The admin group (see [Admin team member](#github-organization-owners))
 
@@ -63,7 +63,7 @@ This process takes the following steps:
 
 ### Membership Maintenance
 
-Every six months, one currently active member should open an issue in the team-compass repo asking all currently active team members to reply within 3 weeks if they still consider themselves active. If not (or no response is given by a team member), it will be assumed that they have gone inactive. This will help keep the active member list up-to-date.
+Every six months, one currently active member should open an issue in the team-compass repo asking all currently active team members to reply within three weeks if they still consider themselves active. If a team member replies no, or does not reply, we will conclude that they are inactive. This will help keep the active member list up to date.
 
 Remember, an inactive member can return at any time by simply changing their status on the team-compass page.
 
@@ -71,7 +71,7 @@ Remember, an inactive member can return at any time by simply changing their sta
 
 ### Joining the team
 
-Any JupyterLab Council member can ask to be part of the release team using the weekly call or the chat.
+Any JupyterLab Council member can ask to be part of the release team using the weekly call, chat, or official council email list.
 
 ### Release team responsibilities
 
@@ -80,33 +80,35 @@ Release team member are granting the following rights:
 - GitHub JupyterLab organization: membership of the [release team](https://github.com/orgs/jupyterlab/teams/release)
 - PyPI Jupyter organization: manager of the [JupyterLab team](https://pypi.org/manage/organization/jupyter/team/jupyterlab)
 - NPM jupyterlab organization: membership of the [jupyterlab team](https://www.npmjs.com/settings/jupyterlab/teams)
+- conda-forge jupyterlab recipe: maintainer rights
 
-> One of the admin will need to grant the new rights on all three web services.
+> An admin will need to add a new member to all three teams.
 
-Being part of those teams, you will be granted publication rights of major JupyterLab-related packages. Meaning you should be able to carry out a release and react quickly in case a published package is broken or corrupted.
+Members of these teams have publication rights for major JupyterLab-related packages. Team members can publish a release and can react quickly in case a published package is broken or corrupted.
 
 ### Membership Maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all currently team members to reply within 3 weeks if they still consider themselves active. If not (or no response is given by a team member), it will be assumed that they have gone inactive. This will imply the member will be removed for this subteam.
+Every six months, a bot will open an issue in the team-compass repo asking all currently team members to reply within three weeks if they still consider themselves active. If a member replies no, or they do not reply, we will conclude that they are inactive. Inactive members may be removed from their teams.
 
 ## Admin team member
 
-### Joining the admin
+### Joining the admin team
 
-Any JupyterLab Council member can ask to be part of the admin team using the weekly call or the chat. If the number of administrators has reached 4 people; consensus should be achieved between the interestee and the existing administrators to get the new 4-people team.
+Any JupyterLab Council member can ask to be part of the admin team using the weekly call, chat, or official council email list. There should be no more than four administrators. If there are four administrators already, consensus should be achieved between the new admin candidate and the existing administrators to determine a new four-person admin team.
 
-> The Software Steering Council representative will automatically be part of this group in addition to the 4 members.
+> The Software Steering Council representative will automatically be part of this group, in addition to the four members chosen above.
 
 ### Admin team responsibilities
 
-Admin team member are granting the following rights:
+Admin team members manage the following teams:
 
 - GitHub JupyterLab organization: [ownership](https://github.com/orgs/jupyterlab)
 - PyPI Jupyter organization: manager of the [JupyterLab team](https://pypi.org/manage/organization/jupyter/team/jupyterlab)
 - NPM jupyterlab organization: [ownership](https://www.npmjs.com/settings/jupyterlab)
+- conda-forge jupyterlab recipe: maintainer rights
 
-Being administrators, you will have to maintain the rights of the member on the different projects.
+Administrators maintain membership of the teams listed above.
 
 ### Membership Maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all currently team members to reply within 3 weeks if they still consider themselves active. If not (or no response is given by a team member), it will be assumed that they have gone inactive. This will imply the member will be removed for this subteam.
+Every six months, a bot will open an issue in the team-compass repo asking all currently team members to reply within three weeks if they still consider themselves active. If a member says no, or they do not respond, we will conclude that they are inactive. Inactive members may be removed from their teams.
