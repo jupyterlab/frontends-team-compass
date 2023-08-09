@@ -63,7 +63,7 @@ This process takes the following steps:
 
 ### Membership Maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all currently active team members to reply within three weeks if they still consider themselves active. If a team member replies no, or does not reply, we will conclude that they are inactive. This will help keep the active member list up to date.
+Every six months, a bot will open an issue in the team-compass repo asking all currently active JupyterLab council team members to reply within three weeks if they still consider themselves active. If a team member replies no, or does not reply, we will conclude that they are inactive. This will help keep the active member list up to date.
 
 Remember, an inactive member can return at any time by simply changing their status on the team-compass page.
 
@@ -84,11 +84,11 @@ Release team members can manage the following teams:
 
 > An admin will need to add a new member to all three teams.
 
-Members of these teams have publication rights for major JupyterLab-related packages. Team members can publish a release and can react quickly in case a published package is broken or corrupted.
+Members of the release team have publication rights for major JupyterLab-related packages through the PyPI and NPM teams. Team members can publish a release and can react quickly in case a published package is broken or corrupted.
 
 ### Membership Maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all currently team members to reply within three weeks if they still consider themselves active. If a member replies no, or they do not reply, we will conclude that they are inactive. Inactive members may be removed from their teams.
+Every six months, a bot will open an issue in the team-compass repo asking all current release team members to reply within three weeks if they still consider themselves active. If a member replies no, or they do not reply, we will conclude that they are inactive. Inactive members may be removed from the release team (and be removed from the publication teams on PyPI and NPM).
 
 ## Admin team member
 
@@ -111,4 +111,4 @@ Administrators maintain membership of the teams listed above.
 
 ### Membership Maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all currently team members to reply within three weeks if they still consider themselves active. If a member says no, or they do not respond, we will conclude that they are inactive. Inactive members may be removed from their teams.
+Every six months, a bot will open an issue in the team-compass repo asking all current administrator team members to reply within three weeks if they still consider themselves active. If a member says no, or they do not respond, we will conclude that they are inactive. Inactive members may be removed from their teams.
