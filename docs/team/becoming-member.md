@@ -8,34 +8,16 @@ This document describes how to become a council member. It includes information 
 
 ### JupyterLab Council responsibilities
 
-Active members actively carry out the responsibilities listed in the [Membership Guide Page](membership_guidelines).
-
-### Active and inactive membership
-
-There are two types of JupyterLab Council members, **active** and **inactive**.
-
-Active members:
+Members actively carry out the responsibilities listed in the [Membership Guide Page](membership_guidelines):
 
 * Must be nominated by a current member.
 * Can be elected as the Software Steering Council representative for JupyterLab.
 * Get a vote in a voting situation.
 * Count towards quorum in a voting situation.
-* Are expected to participate in a majority of votes.
+* Are expected to participate in a 2/3 of votes (through a year).
 * Can nominate new members.
 * Should actively participate, either synchronously or asynchronously, in meetings.
 
-Inactive members:
-
-* Were previously an active member.
-* Do not vote.
-* Are not counted towards voting quorum.
-* Can "reactivate" at any time by expressing their change in status publicly.
-
-Council members can freely pass between active and inactive at any time. They *should* publicly state their status change in a pull request that updates the `contributors.yaml` file with their status change.
-
-This means an inactive member can "reactivate" themselves at any time by publicly stating their change in status. This does not require a nomination from another team member.
-
-For example, a member who is going out on a long leave/vacation (>2 weeks) can temporarily change their status to inactive during their absence and immediately reactivate upon return. This isn't required, but this can relieve them from having to watch this repository for any formal votes that happen during their absence.
 
 ### Nominating a new member
 
@@ -61,54 +43,59 @@ This process takes the following steps:
    if they are interested. Don't forget to run them by the {ref}`membership_guidelines`
    page to make sure they understand what they're signing up for.
 
-### Membership Maintenance
+### Membership maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all currently active JupyterLab council team members to reply within three weeks if they still consider themselves active. If a team member replies no, or does not reply, we will conclude that they are inactive. This will help keep the active member list up to date.
-
-Remember, an inactive member can return at any time by simply changing their status on the team-compass page.
+Every six months, a bot will open an issue in the [council repo](https://github.com/jupyterlab/council) asking all currently active JupyterLab council team members to reply within three weeks if they still consider themselves active. If a team member replies no, they will be removed from the council. If a member does not reply, the council may reach that member personnaly for membership confirmation. If that request for confirmation is not answer within a month, the member will be removed from the council.
 
 ## Release team member
 
-### Joining the team
+### Joining the release team
 
 Any JupyterLab Council member can ask to be part of the release team using the weekly call, chat, or official council email list.
 
+> Private channel is recommended to limit the exposure of such information for security reason.
+
 ### Release team responsibilities
 
-Release team members can manage the following teams:
+Release team members will be added to the following groups:
 
 - GitHub JupyterLab organization: membership of the [release team](https://github.com/orgs/jupyterlab/teams/release)
 - PyPI Jupyter organization: manager of the [JupyterLab team](https://pypi.org/manage/organization/jupyter/team/jupyterlab)
 - NPM jupyterlab organization: membership of the [jupyterlab team](https://www.npmjs.com/settings/jupyterlab/teams)
-- conda-forge jupyterlab recipe: maintainer rights
+- conda-forge jupyterlab recipes: maintainer rights
 
-> An admin will need to add a new member to all three teams.
+> An admin will need to add a new member to all three teams and the conda recipes.
 
 Members of the release team have publication rights for major JupyterLab-related packages through the PyPI and NPM teams. Team members can publish a release and can react quickly in case a published package is broken or corrupted.
 
-### Membership Maintenance
+### Release membership maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all current release team members to reply within three weeks if they still consider themselves active. If a member replies no, or they do not reply, we will conclude that they are inactive. Inactive members may be removed from the release team (and be removed from the publication teams on PyPI and NPM).
+Every six months, a bot will open an issue in the [council repo](https://github.com/jupyterlab/council) asking all current release team members to reply within three weeks if they still consider themselves active. If a member replies no, or they do not reply, we will conclude that they step down of the release team. Stepping down members may be removed from the publication groups on PyPI and NPM and the conda recipes maintainers.
 
 ## Admin team member
 
 ### Joining the admin team
 
-Any JupyterLab Council member can ask to be part of the admin team using the weekly call, chat, or official council email list. There should be no more than four administrators. If there are four administrators already, consensus should be achieved between the new admin candidate and the existing administrators to determine a new four-person admin team.
+Any JupyterLab Council member can ask to be part of the admin team using the weekly call, chat, or official council email list.
 
-> The Software Steering Council representative will automatically be part of this group, in addition to the four members chosen above.
+> Private channel is recommended to limit the exposure of such information for security reason.
+
+There should be no more than seven administrators. If there are seven administrators already, consensus should be achieved between the new admin candidate and the existing administrators to determine a new seven-person admin team.
+
+> The Software Steering Council representative will automatically be part of this group.
+> The Executive Council will and must own at least one administrator seat. If the last executive council administrator resigns, the executive council must nominate a new administrator.
 
 ### Admin team responsibilities
 
-Admin team members manage the following teams:
+Admin team members will be added to the following groups:
 
-- GitHub JupyterLab organization: [ownership](https://github.com/orgs/jupyterlab)
+- GitHub JupyterLab organization: [owners](https://github.com/orgs/jupyterlab)
 - PyPI Jupyter organization: manager of the [JupyterLab team](https://pypi.org/manage/organization/jupyter/team/jupyterlab)
-- NPM jupyterlab organization: [ownership](https://www.npmjs.com/settings/jupyterlab)
+- NPM jupyterlab organization: [owners](https://www.npmjs.com/settings/jupyterlab)
 - conda-forge jupyterlab recipe: maintainer rights
 
-Administrators maintain membership of the teams listed above.
+Administrators maintain membership of the groups listed above as well as the JupyterLab council and release team.
 
-### Membership Maintenance
+### Membership maintenance
 
-Every six months, a bot will open an issue in the team-compass repo asking all current administrator team members to reply within three weeks if they still consider themselves active. If a member says no, or they do not respond, we will conclude that they are inactive. Inactive members may be removed from their teams.
+Every six months, a bot will open an issue in the [council repo](https://github.com/jupyterlab/council) asking all current administrator team members to reply within three weeks if they still consider themselves active. If a member says no, or they do not respond, we will conclude that they step down. Stepping down member may be removed from the groups mentionned above.

@@ -48,7 +48,7 @@ We don't want team membership to
 be a big burden (many of us have one or more other jobs too!) but there are
 a few things that you should do as a new member:
 
-1. **"Watch" the [team compass repository](https://github.com/jupyterlab/team-compass)**
+1. **"Watch" the [team compass repository](https://github.com/jupyterlab/team-compass)** and the [counci repository](https://github.com/jupyterlab/council)
    so that you're notified when team conversations are happening.
 2. **Stay up-to-date on team meetings**. You can find a notes from previous meetings pinned at
    the [top of the team-compass issues page](https://github.com/jupyterlab/team-compass/issues).
