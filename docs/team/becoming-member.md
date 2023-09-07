@@ -45,7 +45,7 @@ This process takes the following steps:
 
 ### Membership maintenance
 
-Every six months, a bot will open an issue in the [council repo](https://github.com/jupyterlab/council) asking all currently active JupyterLab council team members to reply within three weeks if they still consider themselves active. If a team member replies no, they will be removed from the council. If a member does not reply, the council may reach that member personnaly for membership confirmation. If that request for confirmation is not answer within a month, the member will be removed from the council.
+Every six months, a bot will open an issue in the [council repo](https://github.com/jupyterlab/council) asking all currently active JupyterLab council team members to reply within three weeks if they still consider themselves active. If a team member replies no, they will be removed from the council. If a member does not reply, the council may reach that member personnaly for membership confirmation. If that request for confirmation is not answered within a month, the member will be removed from the council.
 
 ## Release team member
 
