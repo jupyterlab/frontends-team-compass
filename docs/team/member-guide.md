@@ -26,8 +26,10 @@ maintainers find and choose the right communication channels and have a positive
 In this respect, we are using:
 1. GitHub issues for specific discussions related to changing a repository's content
 (e.g. feature requests, bug reports).
-2. The [Discourse forum](http://discourse.jupyter.org/) for general discussions, support
+2. The [Discourse forum](https://discourse.jupyter.org/) for general discussions, support
 questions, or just as a place where we can inspire each other.
+3. The [Gitter channel](https://app.gitter.im/#/room/#jupyterlab_jupyterlab:gitter.im) for discussions and support questions.
+4. The [JupyterLab council mailing list](https://groups.google.com/u/1/g/jupyterlab-council) for discussing membership, none-public questions,... .
 
 ## How can I help?
 
@@ -40,13 +42,13 @@ when you interact with people (online and offline). Try to keep a friendly, posi
 attitude, and be welcoming and helpful in bringing others into the community
 and answering their questions.
 
-### Are there any specific responsibilies?
+### Are there any specific responsibilities?
 
 We don't want team membership to
 be a big burden (many of us have one or more other jobs too!) but there are
 a few things that you should do as a new member:
 
-1. **"Watch" the [team compass repository](https://github.com/jupyterlab/team-compass)**
+1. **"Watch" the [team compass repository](https://github.com/jupyterlab/team-compass)** and the [council repository](https://github.com/jupyterlab/council)
    so that you're notified when team conversations are happening.
 2. **Stay up-to-date on team meetings**. You can find a notes from previous meetings pinned at
    the [top of the team-compass issues page](https://github.com/jupyterlab/team-compass/issues).
