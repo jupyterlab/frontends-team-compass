@@ -2,7 +2,7 @@
 
 This document describes how to become a council member. It includes information about the two subgroups of JupyterLab Council members:
 - The release group (see [Release team member](#release-team-member))
-- The admin group (see [Admin team member](#github-organization-owners))
+- The admin group (see [Admin team member](#admin-team-member))
 
 ## JupyterLab Council member
 
