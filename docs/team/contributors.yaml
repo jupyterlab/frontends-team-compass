@@ -94,9 +94,15 @@
 
 - name: Michał Krassowski
   handle: "@krassowski"
-  affiliation: University of Oxford
+  affiliation: Quansight
   team: active
   last-check-in: 2022-10
+
+- name: Gabriel Fouasnon
+  handle: "@gabalafou"
+  affiliation: Quansight Labs
+  team: active
+  last-check-in: 2023-10
 
 - name: Fernando Perez
   handle: "@fperez"
