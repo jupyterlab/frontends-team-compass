@@ -26,6 +26,12 @@
   team: active
   last-check-in: 2022-10
 
+- name: Nicolas Brichet
+  handle: "@brichet"
+  affilication: QuantStack
+  team: active
+  last-check-in: 2023-10
+
 - name: Eric Charles
   handle: "@echarles"
   affiliation: Datalayer
