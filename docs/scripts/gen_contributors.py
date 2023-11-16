@@ -57,13 +57,7 @@ with open(contributor_file, "r") as ff:
 people = pd.DataFrame(data)
 if not people.empty:
     # Create active member table
-    active_people = people[people.team == "active"]
+    active_people = people
     table = _generate_contributors(active_people)
     with open(source_dir / "active.txt", "w") as ff:
-        ff.write(table)
-
-    # Create inactive member table
-    inactive_people = people[people.team == "inactive"]
-    table = _generate_contributors(inactive_people)
-    with open(source_dir / "inactive.txt", "w") as ff:
         ff.write(table)
