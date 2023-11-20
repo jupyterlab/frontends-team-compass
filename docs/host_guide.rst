@@ -45,7 +45,9 @@ First and foremost, the host should facilitate the flow of a meeting. That means
 - Going through the agenda
   - Do time checks/pause + move on to hit all items when there are time concerns
 - Guiding discussion
+  - Read chats aloud for participants + the recording
 - Making sure everyone has a chance to speak
+  - Interject when someone has their hand raised
 - Maintaining order
 - Mention/link to the Jupyter Code of Conduct and how everyone is bound to it
 
