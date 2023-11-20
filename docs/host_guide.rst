@@ -33,8 +33,8 @@ Meetings should be...
 Topics
 ^^^^^^
 
-Weekly meetings are for contributors to discuss features, ideas, PRs and other
-work on JupyterLab, and for the community to discuss their work, connect
+Weekly meetings are for contributors to discuss features, demos, ideas, PRs and
+any other work on JupyterLab, and for the community to discuss their work, connect
 with JupyterLab contributors, seek help, and more.
 
 Host Responsibilities
