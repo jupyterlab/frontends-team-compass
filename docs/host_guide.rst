@@ -67,7 +67,8 @@ posted to YouTube for the community to view.
     - If they get no response from the account, the host should assume it's
       recording, and remove it from the meeting.
 
-Last, keep in mind that the code of conduct applies to hosts too!
+Last, keep in mind that the code of conduct applies to hosts too! Hosts should
+peruse and follow the Jupyter Code of conduct.
 
 Meeting Script and Checklist
 ----------------------------
