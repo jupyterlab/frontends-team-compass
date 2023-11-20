@@ -43,9 +43,11 @@ Host Responsibilities
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
 - Going through the agenda
+  - Do time checks/pause + move on to hit all items when there are time concerns
 - Guiding discussion
 - Making sure everyone has a chance to speak
 - Maintaining order
+- Mention/link to the Jupyter Code of Conduct and how everyone is bound to it
 
 The host should also:
 
