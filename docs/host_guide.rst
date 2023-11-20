@@ -89,27 +89,27 @@ as meeting minutes.
 At the start of the meeting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Hello and welcome to our [day, month, year] Jupyter community call. I’m
-[host name] and I’ll be your host today.
+Hello and welcome to our [day, month, year] Jupyter community call. I'm
+[host name] and I'll be your host today.
 
 This is a place to for JupyterLab contributors to connect with each other
 and the community about JupyterLab topics. We want all newcomers to feel
 welcome, so please feel free to jump in on discussions, introduce yourself,
 or add your own items to the agenda.
 
-There’s a couple things to know while you are here.
+There's a couple things to know while you are here.
 
 First, I want to remind everyone that community calls will be recorded and
 posted to YouTube for the community to view. Please keep that in mind while
-you’re here.
+you're here.
 
-Second, I’d like to remind people that as this is a part of the Jupyter
+Second, I'd like to remind people that as this is a part of the Jupyter
 community we are all held to the Jupyter Code of Conduct. You can read about 
 the code of conduct at jupyter.org/conduct.
 
-If you haven’t been here before, here’s how this works. Presenters have
+If you haven't been here before, here's how this works. Presenters have
 submitted what they want to share ahead of time and can be found on the
-agenda. We’ll have a little time for discussion with each one.
+agenda. We'll have a little time for discussion with each one.
 
 Starting the agenda
 ^^^^^^^^^^^^^^^^^^^
@@ -126,21 +126,21 @@ that now.
 Near the end of the call
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Thank you to everyone presenting and attending! I’m happy to have you all as a part
+Thank you to everyone presenting and attending! I'm happy to have you all as a part
 of the Jupyter community.
 
-If you have any feedback, please direct it at [platform/link]. I’d love to hear what
+If you have any feedback, please direct it at [platform/link]. I'd love to hear what
 you think about the call.
 
 Our next community call will be [day, month]. Check out the Jupyter community calendar
 to see what other types of meetings 
 are happening in between.
 
-If you have any interest in sharing in future community calls, please do! It doesn’t
+If you have any interest in sharing in future community calls, please do! It doesn't
 have to be a big share, a polished share, or a technical share, just show off what
 you do with Jupyter that excites you. Submit topics here [platform/link].
 
-If you’re interested in hosting a community call, feel free to reach out. It would be
+If you're interested in hosting a community call, feel free to reach out. It would be
 great to get different people interacting with the community.
 
 After the Meeting
