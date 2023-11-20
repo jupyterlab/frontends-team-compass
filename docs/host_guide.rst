@@ -57,6 +57,7 @@ info about that HERE [LINK/TODO].
 - Record the meeting. The host starts and stops the recording. These are
 posted to YouTube for the community to view.
 - Try to keep meeting minutes on the collaborative HackMD document [LINK/TODO]
+- Provide a signal ("Brace yourselfes") when starting stopping recording
 
 Last, keep in mind that the code of conduct applies to hosts too!
 
