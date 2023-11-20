@@ -59,7 +59,7 @@ info about that HERE [LINK/TODO].
 - Record the meeting. The host starts and stops the recording. These are
 posted to YouTube for the community to view.
 - Try to keep meeting minutes on the collaborative HackMD document [LINK/TODO]
-- Provide a signal ("Brace yourselfes") when starting/stopping recording
+- Provide a signal ("Brace yourselves") when starting/stopping recording
 - Kick unwelcome recording bots: Per the Jupyter community page, participants
   should not record meetings on their own. The host should ask participants
   that look like AI recording bots:
@@ -78,7 +78,7 @@ Pre-Meeting Prep
 
 Log in to Zoom from the Project Jupyter account. Request access HERE [LINK/TODO]
 if needed. Make sure you have a stable internet connection, a good quality
-microphone, and a quiet environment. 
+microphone, and a quiet environment.
 
 Check the meeting agenda on HackMD. The agenda is a collaboratively created
 document made by the participants. Ensure a section for today's meeting is
