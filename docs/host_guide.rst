@@ -59,7 +59,7 @@ info about that HERE [LINK/TODO].
 - Record the meeting. The host starts and stops the recording. These are
 posted to YouTube for the community to view.
 - Try to keep meeting minutes on the collaborative HackMD document [LINK/TODO]
-- Provide a signal ("Brace yourselfes") when starting stopping recording
+- Provide a signal ("Brace yourselfes") when starting/stopping recording
 - Kick unwelcome recording bots: Per the Jupyter community page, participants
   should not record meetings on their own. The host should ask participants
   that look like AI recording bots:
