@@ -4,7 +4,7 @@ Welcome to the Host Guide, a place for weekly call hosts to get help,
 info, advice and best practices for conducting great, fun, effective
 weekly meetings.
 
-Check the [Suggested Meeting Script section](# &#x1F4CB; Meeting Script and Checklist)
+Check the [Suggested Meeting Script section](# Meeting Script and Checklist)
 if you want a TL;DR for quick tips to follow for running a great meeting, and
 peruse the other sections for basic info and additional context.
 
