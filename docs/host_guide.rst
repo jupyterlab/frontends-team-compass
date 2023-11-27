@@ -27,7 +27,7 @@ Meetings should be...
 - Positive, friendly, exciting
 - Welcoming and open to JupterLab users from diverse backgrounds
 - Newcomers in particular should be welcomed and encouraged to
-    chime in and discuss, or participate in whatever way they would like
+chime in and discuss, or participate in whatever way they would like
 
 Topics
 ^^^^^^
@@ -59,8 +59,7 @@ posted to YouTube for the community to view.
   should not record meetings on their own. The host should ask participants
   that look like AI recording bots:
     - To identify themselves and state whether they're recording
-    - If they get no response from the account, the host should assume it's
-      recording, and remove it from the meeting.
+    - If they get no response from the account, the host should assume it's recording, and remove it from the meeting.
 
 Last, keep in mind that the code of conduct applies to hosts too!
 
