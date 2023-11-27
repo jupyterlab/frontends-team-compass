@@ -65,7 +65,7 @@ peruse and follow the Jupyter Code of conduct.
 
 ## &#x270f; Meeting Script and Checklist
 
-### Pre-Meeting Prep
+### &#x23F3; Pre-Meeting Prep
 
 - [ ] Log in to Zoom from the Project Jupyter account [(*request access*](mailto:security@ipython.org)
 *from the Jupyter Security group if needed*)
@@ -77,13 +77,13 @@ connection, a good quality microphone, and a quiet environment.
     *for participants to record their names (which can be copied/pasted from lower*
     *entries). The agenda will also be used as meeting minutes.*
 
-*Links to copy/paste into the meeting chat:*
+&#x1F517; *Links to copy/paste into the meeting chat:*
 
 - Weekly Meeting Notes: https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg
 - Jupyter Code of Conduct: https://jupyter.org/governance/conduct/code_of_conduct.html
 - JupyterLab Team Compass: https://github.com/jupyterlab/team-compass
 
-### At the start of the meeting
+### &#x1F3AC; At the start of the meeting
 
 ```
 Hello and welcome to our [day, month, year] Jupyter community call. I’m
@@ -109,7 +109,7 @@ submitted what they want to share ahead of time and can be found on the
 agenda. We’ll have a little time for discussion with each one.
 ```
 
-### Starting the agenda
+### &#x1F4DA; Starting the agenda
 
 ```
 [Prepare to start the recording]
@@ -124,7 +124,7 @@ If you have anything to say off the record, please feel free to discuss
 that now.
 ```
 
-### Near the end of the call
+### &#x1F3C1; Near the end of the call
 
 ```
 Thank you to everyone presenting and attending! I’m happy to have you all as a part
