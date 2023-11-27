@@ -12,10 +12,9 @@ for basic info and additional context.
 Basic Meeting Event Info
 ------------------------
 
-JupyterLab team meetings are held every Wednesday. You can check the [Jupyter Community
-Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
+JupyterLab team meetings are held every Wednesday. You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
 
-Read the [weekly meeting notes/agenda here(https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)].
+Read the [weekly meeting notes/agenda here](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg).
 
 Meeting Purpose/Goals
 ---------------------
