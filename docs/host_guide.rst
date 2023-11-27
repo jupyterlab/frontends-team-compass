@@ -33,19 +33,20 @@ Meetings should be...
 Topics
 ^^^^^^
 
-Weekly meetings are for contributors to discuss features, ideas, PRs and other
-work on JupyterLab, and for the community to discuss their work, connect
-with JupyterLab contributors, seek help, and more.
+Weekly meetings are for contributors to discuss features, demos, ideas, PRs
+and any other work on JupyterLab, and for the community to discuss their work,
+connect with JupyterLab contributors, seek help, and more.
 
 Host Responsibilities
 ---------------------
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
-- Going through the agenda
-- Guiding discussion
-- Making sure everyone has a chance to speak
+- Going through the agenda - Do time checks/pause + move on to hit all items when there are time concerns
+- Guiding discussion - Read chats aloud for participants + the recording
+- Making sure everyone has a chance to speak - Interject when someone has their hand raised
 - Maintaining order
+- Mention/link to the Jupyter Code of Conduct and how everyone is bound to it
 
 The host should also:
 
@@ -63,7 +64,8 @@ The host should also:
   - | If they get no response from the account, the host should assume
     | it's recording, and remove it from the meeting.
 
-Last, keep in mind that the code of conduct applies to hosts too!
+Last, keep in mind that the code of conduct applies to hosts too! Hosts should
+peruse and follow the Jupyter Code of conduct.
 
 Meeting Script and Checklist
 ----------------------------
