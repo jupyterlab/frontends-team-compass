@@ -83,7 +83,7 @@ connection, a good quality microphone, and a quiet environment.
 - Jupyter Code of Conduct: https://jupyter.org/governance/conduct/code_of_conduct.html
 - JupyterLab Team Compass: https://github.com/jupyterlab/team-compass
 
-### &#x1F6EB; At the start of the meeting
+### &#x1F4E3; At the start of the meeting
 
 ```
 Hello and welcome to our [day, month, year] Jupyter community call. I’m
@@ -109,7 +109,7 @@ submitted what they want to share ahead of time and can be found on the
 agenda. We’ll have a little time for discussion with each one.
 ```
 
-### &#x2708; Starting the agenda
+### &#x1F4DA; Starting the agenda
 
 ```
 [Prepare to start the recording]
@@ -124,7 +124,7 @@ If you have anything to say off the record, please feel free to discuss
 that now.
 ```
 
-### &#x1F6EC; Near the end of the call
+### &#x1F3BA; Near the end of the call
 
 ```
 Thank you to everyone presenting and attending! I’m happy to have you all as a part
