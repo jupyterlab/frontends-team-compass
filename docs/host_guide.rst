@@ -24,6 +24,7 @@ community, so (ideally) all participants should have a good time, feel welcome,
 and be heard. In line with that:
 
 Meetings should be...
+
 - Positive, friendly, exciting
 - Welcoming and open to JupterLab users from diverse backgrounds
 - Newcomers in particular should be welcomed and encouraged to
@@ -48,18 +49,19 @@ First and foremost, the host should facilitate the flow of a meeting. That means
 
 The host should also:
 
-- Try to log in as the “Project Jupyter” host account during meetings so they
-can manage the meeting (kicking spammers, muting and recording, etc.), `request
-access <mailto:security@ipython.org>`_ from the Jupyter Security Team.
-- Record the meeting. The host starts and stops the recording. These are
-posted to YouTube for the community to view.
+- | Try to log in as the “Project Jupyter” host account during meetings so they
+  | can manage the meeting (kicking spammers, muting and recording, etc.), `request access <mailto:security@ipython.org>`_
+  | from the Jupyter Security Team.
+- | Record the meeting. The host starts and stops the recording. These are
+  | posted to YouTube for the community to view.
 - Try to keep meeting minutes on `the collaborative HackMD document <https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg>`_
 - Provide a signal ("Brace yourselves") when starting/stopping recording
-- Kick unwelcome recording bots: Per the Jupyter community page, participants
-  should not record meetings on their own. The host should ask participants
-  that look like AI recording bots:
+- | Kick unwelcome recording bots: Per the Jupyter community page, participants
+  | should not record meetings on their own. The host should ask participants
+  | that look like AI recording bots:
     - To identify themselves and state whether they're recording
-    - If they get no response from the account, the host should assume it's recording, and remove it from the meeting.
+    - | If they get no response from the account, the host should assume
+      | it's recording, and remove it from the meeting.
 
 Last, keep in mind that the code of conduct applies to hosts too!
 
