@@ -150,8 +150,7 @@ If you’re interested in hosting a community call, feel free to reach out. It w
 great to get different people interacting with the community.
 ```
 
-After the Meeting
-^^^^^^^^^^^^^^^^^
+### After the Meeting
 
 Finalize meeting minutes: Go back to HackMD and make any needed additions,
 corrections and formatting you can.
