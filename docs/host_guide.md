@@ -78,8 +78,8 @@ peruse and follow the Jupyter Code of conduct.
 
 ### Pre-Meeting Prep
 
-Log in to Zoom from the Project Jupyter account. [Request access](mailto:security@ipython.org)
-from the Jupyter Security group if needed. Make sure you have a stable internet
+Log in to Zoom from the Project Jupyter account [(*request access*](mailto:security@ipython.org)
+*from the Jupyter Security group if needed*). Make sure you have a stable internet
 connection, a good quality microphone, and a quiet environment.
 
 Check the meeting agenda on HackMD. The agenda is a collaboratively created
