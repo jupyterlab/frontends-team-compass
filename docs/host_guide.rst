@@ -121,6 +121,7 @@ Starting the agenda
 ^^^^^^^^^^^^^^^^^^^
 
 :: 
+
   [Prepare to start the recording]
 
   Okay, before we start the recording, does anyone have anything they'd like
