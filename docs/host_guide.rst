@@ -12,9 +12,9 @@ for basic info and additional context.
 Basic Meeting Event Info
 ------------------------
 
-JupyterLab team meetings are held every Wednesday. You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
+JupyterLab team meetings are held every Wednesday. You can check the `Jupyter Community Meetings calendar <https://jupyter.org/community#calendar>`_ for the exact time in your timezone.
 
-Read the [weekly meeting notes/agenda here](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg).
+Read the `weekly meeting notes/agenda here <https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg>`_.
 
 Meeting Purpose/Goals
 ---------------------
@@ -49,11 +49,11 @@ First and foremost, the host should facilitate the flow of a meeting. That means
 The host should also:
 
 - Try to log in as the “Project Jupyter” host account during meetings so they
-can manage the meeting (kicking spammers, muting and recording, etc.), [request
-access](mailto:security@ipython.org) from the Jupyter Security Team.
+can manage the meeting (kicking spammers, muting and recording, etc.), `request
+access <mailto:security@ipython.org>`_ from the Jupyter Security Team.
 - Record the meeting. The host starts and stops the recording. These are
 posted to YouTube for the community to view.
-- Try to keep meeting minutes on [the collaborative HackMD document](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
+- Try to keep meeting minutes on `the collaborative HackMD document <https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg>`_
 - Provide a signal ("Brace yourselves") when starting/stopping recording
 - Kick unwelcome recording bots: Per the Jupyter community page, participants
   should not record meetings on their own. The host should ask participants
@@ -78,7 +78,7 @@ Meeting Script and Checklist
 Pre-Meeting Prep
 ^^^^^^^^^^^^^^^^
 
-Log in to Zoom from the Project Jupyter account. [Request access](mailto:security@ipython.org)
+Log in to Zoom from the Project Jupyter account. `Request access <mailto:security@ipython.org>`_
 from the Jupyter Security group if needed. Make sure you have a stable internet
 connection, a good quality microphone, and a quiet environment.
 
@@ -154,6 +154,6 @@ Finalize meeting minutes: Go back to HackMD and make any needed additions,
 corrections and formatting you can.
 
 Publish the minutes: Convert the HackMD document to markdown and publish
-it to the relevant Weekly Team Meetings archive issue on GitHub [(example)](https://github.com/jupyterlab/team-compass/issues/205)
+it to the relevant Weekly Team Meetings archive issue on GitHub `(example) <(https://github.com/jupyterlab/team-compass/issues/205>`_
 in the JupyterLab team-compass repository for the corresponding time period
 (search issues, and look for the 6 month period the meeting belongs to).
