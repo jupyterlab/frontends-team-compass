@@ -43,7 +43,7 @@ First and foremost, the host should facilitate the flow of a meeting. That means
   - *Read chats aloud for participants + the recording*
 - [ ] Maintaining order / Making sure everyone has a chance to speak:
   - *Interject when someone has their hand raised*
-- [ ] Mention/link to the Jupyter Code of Conduct and how everyone is bound to it**
+- [ ] Mention/link to the Jupyter Code of Conduct and how everyone is bound to it
 
 The host should also:
 
