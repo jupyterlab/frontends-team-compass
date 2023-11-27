@@ -4,11 +4,11 @@ Welcome to the Host Guide, a place for weekly call hosts to get help,
 info, advice and best practices for conducting great, fun, effective
 weekly meetings.
 
-Check the [Suggested Meeting Script section](# Meeting Script and Checklist)
+Check the [Suggested Meeting Script section](# &1F4CB; Meeting Script and Checklist)
 if you want a TL;DR for quick tips to follow for running a great meeting, and
 peruse the other sections for basic info and additional context.
 
-## Basic Meeting Event Info
+## &23F0; Basic Meeting Event Info
 
 JupyterLab team meetings are held every Wednesday. You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
 
@@ -37,22 +37,22 @@ with JupyterLab contributors, seek help, and more.
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
-- Going through the agenda:
+- [ ] Going through the agenda:
   - *Do time checks/pause + move on to hit all items when there are time concerns*
-- Guiding discussion:
+- [ ] Guiding discussion:
   - *Read chats aloud for participants + the recording*
-- Maintaining order / Making sure everyone has a chance to speak:
+- [ ] Maintaining order / Making sure everyone has a chance to speak:
   - *Interject when someone has their hand raised*
-- Mention/link to the Jupyter Code of Conduct and how everyone is bound to it**
+- [ ] Mention/link to the Jupyter Code of Conduct and how everyone is bound to it**
 
 The host should also:
 
-- Try to log in as the “Project Jupyter” host account for meeting management perks (kicking spammers, muting and recording, etc.), [request access](mailto:security@ipython.org) from the Jupyter Security Team.
-- Record the meeting: The host starts and stops the recording. These are
+- [ ] Try to log in as the “Project Jupyter” host account for meeting management perks (kicking spammers, muting and recording, etc.), [request access](mailto:security@ipython.org) from the Jupyter Security Team.
+- [ ] Record the meeting: The host starts and stops the recording. These are
   posted to YouTube for the community to view.
-- Try to keep meeting minutes on [the collaborative HackMD document](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
-- Provide a signal ("Brace yourselves") when starting/stopping recording
-- Kick unwelcome recording bots:
+- [ ] Try to keep meeting minutes on [the collaborative HackMD document](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
+- [ ] Provide a signal ("Brace yourselves") when starting/stopping recording
+- [ ] Kick unwelcome recording bots:
   - Per the Jupyter community page, participants
   should not record meetings on their own. The host should ask participants
   that look like AI recording bots:
@@ -63,7 +63,7 @@ The host should also:
 Last, keep in mind that the code of conduct applies to hosts too! Hosts should
 peruse and follow the Jupyter Code of conduct.
 
-## Meeting Script and Checklist
+## &1F4CB; Meeting Script and Checklist
 
 ### Pre-Meeting Prep
 
