@@ -37,24 +37,23 @@ with JupyterLab contributors, seek help, and more.
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
-- **Going through the agenda**
+- Going through the agenda:
   - *Do time checks/pause + move on to hit all items when there are time concerns*
-- **Guiding discussion**
+- Guiding discussion:
   - *Read chats aloud for participants + the recording*
-- **Maintaining order / Making sure everyone has a chance to speak**
+- Maintaining order / Making sure everyone has a chance to speak:
   - *Interject when someone has their hand raised*
-- **Mention/link to the Jupyter Code of Conduct and how everyone is bound to it**
+- Mention/link to the Jupyter Code of Conduct and how everyone is bound to it**
 
 The host should also:
 
-- Try to log in as the “Project Jupyter” host account during meetings so they
-  can manage the meeting (kicking spammers, muting and recording, etc.), [request access](mailto:security@ipython.org)
-  from the Jupyter Security Team.
-- Record the meeting. The host starts and stops the recording. These are
+- Try to log in as the “Project Jupyter” host account for meeting management perks (kicking spammers, muting and recording, etc.), [request access](mailto:security@ipython.org) from the Jupyter Security Team.
+- Record the meeting: The host starts and stops the recording. These are
   posted to YouTube for the community to view.
 - Try to keep meeting minutes on [the collaborative HackMD document](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
 - Provide a signal ("Brace yourselves") when starting/stopping recording
-- Kick unwelcome recording bots: Per the Jupyter community page, participants
+- Kick unwelcome recording bots:
+  - Per the Jupyter community page, participants
   should not record meetings on their own. The host should ask participants
   that look like AI recording bots:
   - To identify themselves and state whether they're recording
