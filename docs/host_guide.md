@@ -23,7 +23,7 @@ and be heard. In line with that:
 Meetings should be...
 
 - Positive, friendly, exciting
-- Welcoming and open to JupterLab users from diverse backgrounds
+- Welcoming and open to JupyterLab users from diverse backgrounds
 - Newcomers in particular should be welcomed and encouraged to
   chime in and discuss, or participate in whatever way they would like
 
