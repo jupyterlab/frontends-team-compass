@@ -69,6 +69,7 @@ Meeting Script and Checklist
 ----------------------------
 
 **Links for you to copy/paste in the meeting chat:**
+
 - Weekly Meeting Notes/Agenda on HackMD
   - https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg
 - Jupyter Code of Conduct
