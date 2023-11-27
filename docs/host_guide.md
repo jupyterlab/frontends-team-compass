@@ -69,22 +69,21 @@ peruse and follow the Jupyter Code of conduct.
 
 ### Pre-Meeting Prep
 
-- Log in to Zoom from the Project Jupyter account [(*request access*](mailto:security@ipython.org)
+- [ ] Log in to Zoom from the Project Jupyter account [(*request access*](mailto:security@ipython.org)
 *from the Jupyter Security group if needed*)
-- Make sure you have a stable internet
+- [ ] Make sure you have a stable internet
 connection, a good quality microphone, and a quiet environment.
-- Check the [meeting agenda on HackMD](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
+- [ ]Check the [meeting agenda on HackMD](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
   - *The agenda is a collaboratively created document made by the participants.*
     *Ensure a section for today's meeting is created, with today's date and a table*
     *for participants to record their names (which can be copied/pasted from lower*
     *entries). The agenda will also be used as meeting minutes.*
-- Links to copy/paste into the meeting chat
-  - Weekly Meeting Notes/Agenda on HackMD
-    - https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg
-  - Jupyter Code of Conduct
-    - https://jupyter.org/governance/conduct/code_of_conduct.html
-  - JupyterLab Team Compass
-    - https://github.com/jupyterlab/team-compass
+
+Links to copy/paste into the meeting chat
+
+- Weekly Meeting Notes: https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg
+- Jupyter Code of Conduct: https://jupyter.org/governance/conduct/code_of_conduct.html
+- JupyterLab Team Compass: https://github.com/jupyterlab/team-compass
 
 ### At the start of the meeting
 
