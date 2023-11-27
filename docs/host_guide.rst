@@ -93,61 +93,66 @@ as meeting minutes.
 At the start of the meeting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Hello and welcome to our [day, month, year] Jupyter community call. I’m
-[host name] and I’ll be your host today.
+:: 
 
-This is a place to for JupyterLab contributors to connect with each other
-and the community about JupyterLab topics. We want all newcomers to feel
-welcome, so please feel free to jump in on discussions, introduce yourself,
-or add your own items to the agenda.
+  Hello and welcome to our [day, month, year] Jupyter community call. I’m
+  [host name] and I’ll be your host today.
 
-There’s a couple things to know while you are here.
+  This is a place to for JupyterLab contributors to connect with each other
+  and the community about JupyterLab topics. We want all newcomers to feel
+  welcome, so please feel free to jump in on discussions, introduce yourself,
+  or add your own items to the agenda.
 
-First, I want to remind everyone that community calls will be recorded and
-posted to YouTube for the community to view. Please keep that in mind while
-you’re here.
+  There’s a couple things to know while you are here.
 
-Second, I’d like to remind people that as this is a part of the Jupyter
-community we are all held to the Jupyter Code of Conduct. You can read about 
-the code of conduct at jupyter.org/conduct.
+  First, I want to remind everyone that community calls will be recorded and
+  posted to YouTube for the community to view. Please keep that in mind while
+  you’re here.
 
-If you haven’t been here before, here’s how this works. Presenters have
-submitted what they want to share ahead of time and can be found on the
-agenda. We’ll have a little time for discussion with each one.
+  Second, I’d like to remind people that as this is a part of the Jupyter
+  community we are all held to the Jupyter Code of Conduct. You can read about 
+  the code of conduct at jupyter.org/conduct.
+
+  If you haven’t been here before, here’s how this works. Presenters have
+  submitted what they want to share ahead of time and can be found on the
+  agenda. We’ll have a little time for discussion with each one.
 
 Starting the agenda
 ^^^^^^^^^^^^^^^^^^^
 
-[Prepare to start the recording]
+:: 
+  [Prepare to start the recording]
 
-Okay, before we start the recording, does anyone have anything they'd like
-to say off the record? (Say "Brace Yourselves!" before starting/stopping
-recording :)
+  Okay, before we start the recording, does anyone have anything they'd like
+  to say off the record? (Say "Brace Yourselves!" before starting/stopping
+  recording :)
 
-[After the recording ends]
+  [After the recording ends]
 
-If you have anything to say off the record, please feel free to discuss
-that now.
+  If you have anything to say off the record, please feel free to discuss
+  that now.
 
 Near the end of the call
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Thank you to everyone presenting and attending! I’m happy to have you all as a part
-of the Jupyter community.
+:: 
 
-If you have any feedback, please direct it at [platform/link]. I’d love to hear what
-you think about the call.
+  Thank you to everyone presenting and attending! I’m happy to have you all as a part
+  of the Jupyter community.
 
-Our next community call will be [day, month]. Check out the Jupyter community calendar
-to see what other types of meetings 
-are happening in between.
+  If you have any feedback, please direct it at [platform/link]. I’d love to hear what
+  you think about the call.
 
-If you have any interest in sharing in future community calls, please do! It doesn’t
-have to be a big share, a polished share, or a technical share, just show off what
-you do with Jupyter that excites you. Submit topics here [platform/link].
+  Our next community call will be [day, month]. Check out the Jupyter community calendar
+  to see what other types of meetings 
+  are happening in between.
 
-If you’re interested in hosting a community call, feel free to reach out. It would be
-great to get different people interacting with the community.
+  If you have any interest in sharing in future community calls, please do! It doesn’t
+  have to be a big share, a polished share, or a technical share, just show off what
+  you do with Jupyter that excites you. Submit topics here [platform/link].
+
+  If you’re interested in hosting a community call, feel free to reach out. It would be
+  great to get different people interacting with the community.
 
 After the Meeting
 ^^^^^^^^^^^^^^^^^
