@@ -145,12 +145,19 @@ If you’re interested in hosting a community call, feel free to reach out. It w
 great to get different people interacting with the community.
 ```
 
-### After the Meeting
+### &#x1F389; After the Meeting
 
-Finalize meeting minutes: Go back to HackMD and make any needed additions,
+**Congratulations on a &#x1F680; finished meeting! Pat yourself on the back. We want to thank you SO MUCH for volunteering to make the Jupyter community better!**
+
+There are just a few post-meeting TODO items:
+
+- [ ] Finalize meeting minutes: Go back to HackMD and make any needed additions,
 corrections and formatting you can.
-
-Publish the minutes: Convert the HackMD document to markdown and publish
+- [ ] Publish the minutes: Convert the HackMD document to markdown and publish
 it to the relevant Weekly Team Meetings archive issue on GitHub [(example)](https://github.com/jupyterlab/team-compass/issues/205)
 in the JupyterLab team-compass repository for the corresponding time period
 (search issues, and look for the 6 month period the meeting belongs to).
+
+&#x1F305; The Jupyter community depends on volunteers like you, so again we
+would like to thank you for helping the Jupyter project bring free and open
+tools for interactive computing to the world.
