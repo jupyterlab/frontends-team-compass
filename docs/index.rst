@@ -22,6 +22,7 @@ governance and planning.
    team/becoming-member
    team/decision-making
    team/member-guide
+   host_guide
 
 Why have a Team Compass?
 ========================
