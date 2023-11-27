@@ -12,10 +12,10 @@ for basic info and additional context.
 Basic Meeting Event Info
 ------------------------
 
-JupyterLab team meetings are held every Wednesday. You can check the Jupyter Community
-Meetings calendar [LINK/TODO] for the exact time in your timezone.
+JupyterLab team meetings are held every Wednesday. You can check the [Jupyter Community
+Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
 
-HACKMD link/info here TODO.
+Read the [weekly meeting notes/agenda here(https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)].
 
 Meeting Purpose/Goals
 ---------------------
@@ -50,23 +50,38 @@ First and foremost, the host should facilitate the flow of a meeting. That means
 The host should also:
 
 - Try to log in as the “Project Jupyter” host account during meetings so they
-can manage the meeting (kicking spammers, muting and recording, etc.), more
-info about that HERE [LINK/TODO].
+can manage the meeting (kicking spammers, muting and recording, etc.), [request
+access](mailto:security@ipython.org) from the Jupyter Security Team.
 - Record the meeting. The host starts and stops the recording. These are
 posted to YouTube for the community to view.
-- Try to keep meeting minutes on the collaborative HackMD document [LINK/TODO]
+- Try to keep meeting minutes on [the collaborative HackMD document](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg)
+- Provide a signal ("Brace yourselves") when starting/stopping recording
+- Kick unwelcome recording bots: Per the Jupyter community page, participants
+  should not record meetings on their own. The host should ask participants
+  that look like AI recording bots:
+    - To identify themselves and state whether they're recording
+    - If they get no response from the account, the host should assume it's
+      recording, and remove it from the meeting.
 
 Last, keep in mind that the code of conduct applies to hosts too!
 
 Meeting Script and Checklist
 ----------------------------
 
+**Links for you to copy/paste in the meeting chat:**
+- Weekly Meeting Notes/Agenda on HackMD
+  - https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg
+- Jupyter Code of Conduct
+  - https://jupyter.org/governance/conduct/code_of_conduct.html
+- JupyterLab Team Compass
+  - https://github.com/jupyterlab/team-compass
+
 Pre-Meeting Prep
 ^^^^^^^^^^^^^^^^
 
-Log in to Zoom from the Project Jupyter account. Request access HERE [LINK/TODO]
-if needed. Make sure you have a stable internet connection, a good quality
-microphone, and a quiet environment. 
+Log in to Zoom from the Project Jupyter account. [Request access](mailto:security@ipython.org)
+from the Jupyter Security group if needed. Make sure you have a stable internet
+connection, a good quality microphone, and a quiet environment.
 
 Check the meeting agenda on HackMD. The agenda is a collaboratively created
 document made by the participants. Ensure a section for today's meeting is
@@ -103,11 +118,13 @@ Starting the agenda
 ^^^^^^^^^^^^^^^^^^^
 
 [Prepare to start the recording]
+
 Okay, before we start the recording, does anyone have anything they'd like
 to say off the record? (Say "Brace Yourselves!" before starting/stopping
 recording :)
 
 [After the recording ends]
+
 If you have anything to say off the record, please feel free to discuss
 that now.
 
@@ -138,5 +155,6 @@ Finalize meeting minutes: Go back to HackMD and make any needed additions,
 corrections and formatting you can.
 
 Publish the minutes: Convert the HackMD document to markdown and publish
-it to the relevant Weekly Team Meetings thread on GitHub [LINK/TODO] in the
-JupyterLab team-compass repository on the corresponding thread.
+it to the relevant Weekly Team Meetings archive issue on GitHub [(example)](https://github.com/jupyterlab/team-compass/issues/205)
+in the JupyterLab team-compass repository for the corresponding time period
+(search issues, and look for the 6 month period the meeting belongs to).
