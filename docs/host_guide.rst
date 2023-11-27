@@ -59,9 +59,9 @@ The host should also:
 - | Kick unwelcome recording bots: Per the Jupyter community page, participants
   | should not record meetings on their own. The host should ask participants
   | that look like AI recording bots:
-    - To identify themselves and state whether they're recording
-    - | If they get no response from the account, the host should assume
-      | it's recording, and remove it from the meeting.
+  - To identify themselves and state whether they're recording
+  - | If they get no response from the account, the host should assume
+    | it's recording, and remove it from the meeting.
 
 Last, keep in mind that the code of conduct applies to hosts too!
 
