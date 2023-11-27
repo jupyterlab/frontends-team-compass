@@ -147,7 +147,7 @@ great to get different people interacting with the community.
 
 ### &#x1F389; After the Meeting
 
-*Congratulations on a &#x1F680; finished meeting! Pat yourself on the back. We want to thank you SO MUCH for volunteering to make the Jupyter community better!*
+*Congratulations &#x1F680; on a finished meeting! Pat yourself on the back. We want to thank you SO MUCH for volunteering to make the Jupyter community better!*
 
 There are just a few post-meeting TODO items:
 
