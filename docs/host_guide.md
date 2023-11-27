@@ -83,7 +83,7 @@ connection, a good quality microphone, and a quiet environment.
 - Jupyter Code of Conduct: https://jupyter.org/governance/conduct/code_of_conduct.html
 - JupyterLab Team Compass: https://github.com/jupyterlab/team-compass
 
-### &#x1F4E3; At the start of the meeting
+### &#x1F399; At the start of the meeting
 
 ```
 Hello and welcome to our [day, month, year] Jupyter community call. I’m
