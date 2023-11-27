@@ -4,9 +4,9 @@ Welcome to the Host Guide, a place for weekly call hosts to get help,
 info, advice and best practices for conducting great, fun, effective
 weekly meetings.
 
-Check the Suggested Meeting Script section if you want a TL;DR for quick
-tips to follow for running a great meeting, and peruse the other sections
-for basic info and additional context.
+Check the [Suggested Meeting Script section](# Meeting Script and Checklist)
+if you want a TL;DR for quick tips to follow for running a great meeting, and
+peruse the other sections for basic info and additional context.
 
 ## Basic Meeting Event Info
 
@@ -37,12 +37,9 @@ with JupyterLab contributors, seek help, and more.
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
-- Going through the agenda
-  - Do time checks/pause + move on to hit all items when there are time concerns
-- Guiding discussion
-  - Read chats aloud for participants + the recording
-- Making sure everyone has a chance to speak
-  - Interject when someone has their hand raised
+- Going through the agenda *(Do time checks/pause + move on to hit all items when there are time concerns)*
+- Guiding discussion *(Read chats aloud for participants + the recording)*
+- Making sure everyone has a chance to speak *(Interject when someone has their hand raised)*
 - Maintaining order
 - Mention/link to the Jupyter Code of Conduct and how everyone is bound to it
 
