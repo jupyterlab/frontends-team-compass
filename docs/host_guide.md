@@ -14,7 +14,7 @@ JupyterLab team meetings are held every Wednesday. You can check the [Jupyter Co
 
 Read the [weekly meeting notes/agenda here](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg).
 
-## Meeting Purpose/Goals
+## &#x1F3AF; Meeting Purpose/Goals
 
 The weekly meetings are a way to connect JupyterLab contributors and the
 community, so (ideally) all participants should have a good time, feel welcome,
@@ -27,13 +27,13 @@ Meetings should be...
 - Newcomers in particular should be welcomed and encouraged to
   chime in and discuss, or participate in whatever way they would like
 
-## Topics
+## &#x1F4AC; Topics
 
 Weekly meetings are for contributors to discuss features, demos, ideas, PRs and
 any other work on JupyterLab, and for the community to discuss their work, connect
 with JupyterLab contributors, seek help, and more.
 
-## Host Responsibilities
+## &#x1F4AA; Host Responsibilities
 
 First and foremost, the host should facilitate the flow of a meeting. That means:
 
@@ -63,7 +63,7 @@ The host should also:
 Last, keep in mind that the code of conduct applies to hosts too! Hosts should
 peruse and follow the Jupyter Code of conduct.
 
-## &#x1F4CB; Meeting Script and Checklist
+## &#x270f; Meeting Script and Checklist
 
 ### Pre-Meeting Prep
 
