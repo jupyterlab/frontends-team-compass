@@ -1,22 +1,43 @@
-JupyterLab 4.1 beta is available for testing! It features:
-- support for CSS customization,
-- diagrams in Markdown,
-- inline completer (which can present suggestions from generative AI models),
-- improved keyboard navigation,
-- execution history in notebook cells,
-- opening files from traceback,
-- an error indicator in ToC
-- a plugin manager
-- windowing mode improvements, including an experimental virtual scrollbar
+### Mastodon (496/500 characters):
 
-To test the beta, install it with either `pip` or `conda`:
+JupyterLab 4.1 beta - call for testing! Included:
+- CSS customization,
+- diagrams in Markdown,
+- inline completer (for AI models),
+- better keyboard navigation,
+- execution history access,
+- links in tracebacks,
+- error indicators in ToC
+- plugin manager
 
 ```
 pip install -U 'jupyterlab>=4.1.0b2'
-# or with conda:
+# or
 # conda install -c conda-forge/label/jupyterlab_beta -c conda-forge jupyterlab
 ```
 
-Please report any issues on https://github.com/jupyterlab/jupyterlab/issues, and thank you for testing this pre-release!
+Please report issues on https://github.com/jupyterlab/jupyterlab/issues, and thank you for testing!
 
-The full changelog is available in the documentation: https://jupyterlab.readthedocs.io/en/latest/getting_started/changelog.html#v4-1.
+Changelog: https://jupyterlab.readthedocs.io/en/latest/getting_started/changelog.html#v4-1.
+
+### Twitter/X (Max 280 characters each):
+
+JupyterLab 4.1 beta - call for testing! Featuring CSS customization, diagrams in Markdown, inline completer (for AI models), better keyboard navigation, error indicators in ToC, new plugin manager and more!
+
+Full changelog: https://jupyterlab.readthedocs.io/en/latest/getting_started/changelog.html#v4-1
+
+1/2
+
+---
+
+To test the beta use:
+
+```
+pip install -U 'jupyterlab>=4.1.0b2'
+# or
+# conda install -c conda-forge/label/jupyterlab_beta -c conda-forge jupyterlab
+```
+
+Please report any issues on https://github.com/jupyterlab/jupyterlab/issues, and thank you for testing!
+
+2/2
