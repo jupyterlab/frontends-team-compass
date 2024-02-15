@@ -110,3 +110,18 @@
   affiliation: Bloomberg
   last-check-in: "Thu 16 Nov 2023"
 
+- name: Rosio Reyes
+  handle: "@RRosio"
+  affiliation: Anaconda
+  last-check-in: "Thu 16 Nov 2023"
+
+- name: Sylvain Corlay
+  handle: "@SylvainCorlay"
+  affiliation: QuantStack
+  last-check-in: "Thu 16 Nov 2023"
+
+- name: Zach Sailer
+  handle: "@Zsailer"
+  affiliation: Apple
+  last-check-in: "Thu 16 Nov 2023"
+
