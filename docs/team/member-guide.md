@@ -2,7 +2,7 @@
 
 # Membership guidelines
 
-This page holds resources for members of the JupyterLab Council.
+This page holds resources for members of the Jupyter Frontends Council.
 They're meant to guide members to be happy, productive members of the team!
 
 ## What are the team resources?
@@ -10,11 +10,11 @@ They're meant to guide members to be happy, productive members of the team!
 There are a few resources that are particularly useful for team members. Here's
 a quick list to get you started.
 
-* [**The JupyterLab Team Compass**](https://github.com/jupyterlab/team-compass)
+* [**The Jupyter Frontends Team Compass**](https://github.com/jupyterlab/team-compass)
   is a repository with lots of information about team-related things. It has
   development tips, information about team meetings, milestones and roadmaps,
   etc.
-* [**The JupyterLab Team Compass issues**](https://github.com/jupyterlab/team-compass/issues)
+* [**The Jupyter Frontends Team Compass issues**](https://github.com/jupyterlab/team-compass/issues)
   are where we often discuss specific, actionable things related to the *team*
   (e.g., discussing whether to change something in the team-compass repo).
 
@@ -29,7 +29,7 @@ In this respect, we are using:
 2. The [Discourse forum](https://discourse.jupyter.org/) for general discussions, support
 questions, or just as a place where we can inspire each other.
 3. The [Gitter channel](https://app.gitter.im/#/room/#jupyterlab_jupyterlab:gitter.im) for discussions and support questions.
-4. The [JupyterLab council mailing list](https://groups.google.com/u/1/g/jupyterlab-council) for discussing membership, none-public questions,... .
+4. The [Jupyter Frontends Council mailing list](https://groups.google.com/u/1/g/jupyterlab-council) for discussing membership, none-public questions,... .
 
 ## How can I help?
 
@@ -79,7 +79,7 @@ Having merge rights is both a privilege and a responsibility - please be
 thoughtful when using it! To that extent, here are a few guidelines when
 deciding to merge things into one of our repositories:
 
-* **Use your best judgment**. As a member of the JupyterLab Council, we trust
+* **Use your best judgment**. As a member of the Jupyter Frontends Council, we trust
   your judgment, and we ask you to use your best judgment in deciding when to
   take an action.
 * **Make sure it's quality code**. We know this is somewhat subjective, but

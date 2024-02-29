@@ -1,8 +1,8 @@
-# Current Jupyter Frontends Council members
+# Current Jupyter Jupyter Frontends Council members
 
-This page lists (in random order) the officially named Frontends Council members.
+This page lists (in random order) the officially named Jupyter Frontends Council members.
 
-Council members are actively participating in the development, maintenance, planning, and discussion around projects in the JupyterLab Github organization.
+Council members are actively participating in the development, maintenance, planning, and discussion around projects in the JupyterLab Github organization and the Jupyter Notebook project.
 
 ```{eval-rst}
 
