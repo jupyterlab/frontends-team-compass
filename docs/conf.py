@@ -45,7 +45,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Team Compass'
-copyright = '2021, JupyterLab'
+copyright = '2024, JupyterLab'
 author = 'JupyterLab Team'
 
 # The version info for the project you're documenting, acts as replacement for

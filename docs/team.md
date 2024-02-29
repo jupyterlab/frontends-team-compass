@@ -1,8 +1,8 @@
-# Current JupyterLab Council members
+# Current Jupyter Frontends Council members
 
-This page lists (alphabetically) the officially named JupyterLab Council members.
+This page lists (in random order) the officially named Jupyter Frontends Council members.
 
-Council members are actively participating in the development, maintenance, planning, and discussion around projects in the JupyterLab Github organization.
+Council members are actively participating in the development, maintenance, planning, and discussion around projects in the JupyterLab Github organization and the Jupyter Notebook project.
 
 ```{eval-rst}
 
@@ -13,6 +13,6 @@ Council members are actively participating in the development, maintenance, plan
 
 ## Software Steering Council Representative
 
-Each *official* subproject in Jupyter gets a single [Software Steering Council Representative](https://jupyter.org/governance/software_steering_council.html#software-steering-council). JupyterLab's representative is elected by the members. This representative *should* be re-elected every year (i.e. in January).
+Each *official* subproject in Jupyter gets a single [Software Steering Council Representative](https://jupyter.org/governance/software_steering_council.html#software-steering-council). Frontends representative is elected by the members. This representative *should* be re-elected every year (i.e. in January).
 
-The current representative is Frédéric Collonval.
+The current representative is Jérémy Tuloup.

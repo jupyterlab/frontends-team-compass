@@ -1,17 +1,17 @@
-# Becoming a JupyterLab Council member
+# Becoming a Jupyter Frontends Council member
 
-This document describes how to become a council member. It includes information about the two subgroups of JupyterLab Council members:
+This document describes how to become a council member. It includes information about the two subgroups of Jupyter Frontends Council members:
 - The release group (see [Release team member](#release-team-member))
 - The admin group (see [Admin team member](#admin-team-member))
 
-## JupyterLab Council member
+## Jupyter Frontends Council member
 
-### JupyterLab Council responsibilities
+### Jupyter Frontends Council responsibilities
 
 Members actively carry out the responsibilities listed in the [Membership Guide Page](membership_guidelines):
 
 * Must be nominated by a current member.
-* Can be elected as the Software Steering Council representative for JupyterLab.
+* Can be elected as the Software Steering Council representative for Jupyter Frontends.
 * Get a vote in a voting situation.
 * Count towards quorum in a voting situation.
 * Are expected to participate in a 2/3 of votes (through a year).
@@ -21,7 +21,7 @@ Members actively carry out the responsibilities listed in the [Membership Guide 
 
 ### Nominating a new member
 
-For someone to become a JupyterLab Council member, they should already be a consistent,
+For someone to become a Jupyter Frontends Council member, they should already be a consistent,
 positive, productive member of the community. Newcomers are encouraged to
 become members after they've shown a sustained interest in
 engaging with the community. Moreover, council members should be interested in
@@ -30,28 +30,28 @@ putting in more time and effort than non-members. This doesn't have to
 mean contributing code - it can be assisting others in forums/issues, reviewing
 pull requests, participating in team meetings, etc.
 
-Any new members must be nominated and championed by an active JupyterLab Council member.
+Any new members must be nominated and championed by an active Jupyter Frontends Council member.
 This process takes the following steps:
 
-1. The champion should first discuss internally with the JupyterLab Council to
+1. The champion should first discuss internally with the Jupyter Frontends Council to
    ensure that there's general consensus before officially starting
    the process.
-2. If there is obvious consensus within the JupyterLab Council, then move to the
+2. If there is obvious consensus within the Jupyter Frontends Council, then move to the
    next step. If not, then an internal vote can be taken to protect the privacy
    of the potential member.
-3. A member of the JupyterLab Council contacts the potential new member and asks
+3. A member of the Jupyter Frontends Council contacts the potential new member and asks
    if they are interested. Don't forget to run them by the {ref}`membership_guidelines`
    page to make sure they understand what they're signing up for.
 
 ### Membership maintenance
 
-Every six months, a bot will open an issue in the [council repo](https://github.com/jupyterlab/council) asking all currently active JupyterLab council team members to reply within three weeks if they still consider themselves active. If a team member replies no, they will be removed from the council. If a member does not reply, the council may reach that member personally for membership confirmation. If that request for confirmation is not answered within a month, the member will be removed from the council.
+Every six months, a bot will open an issue in the [council repo](https://github.com/jupyterlab/council) asking all currently active Jupyter Frontends Council team members to reply within three weeks if they still consider themselves active. If a team member replies no, they will be removed from the council. If a member does not reply, the council may reach that member personally for membership confirmation. If that request for confirmation is not answered within a month, the member will be removed from the council.
 
 ## Release team member
 
 ### Joining the release team
 
-Any JupyterLab Council member can ask to be part of the release team using the weekly call, chat, or official council email list.
+Any Jupyter Frontends Council member can ask to be part of the release team using the weekly call, chat, or official council email list.
 
 > Private channel is recommended to limit the exposure of such information for security reason.
 
@@ -76,7 +76,7 @@ Every six months, a bot will open an issue in the [council repo](https://github.
 
 ### Joining the admin team
 
-Any JupyterLab Council member can ask to be part of the admin team using the weekly call, chat, or official council email list.
+Any Jupyter Frontends Council member can ask to be part of the admin team using the weekly call, chat, or official council email list.
 
 > Private channel is recommended to limit the exposure of such information for security reason.
 
@@ -94,7 +94,7 @@ Admin team members will be added to the following groups:
 - NPM jupyterlab organization: [owners](https://www.npmjs.com/settings/jupyterlab)
 - conda-forge jupyterlab recipe: maintainer rights
 
-Administrators maintain membership of the groups listed above as well as the JupyterLab council and release team.
+Administrators maintain membership of the groups listed above as well as the Jupyter Frontends Council and release team.
 
 ### Membership maintenance
 
