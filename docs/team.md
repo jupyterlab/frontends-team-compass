@@ -1,4 +1,4 @@
-# Current Jupyter Jupyter Frontends Council members
+# Current Jupyter Frontends Council members
 
 This page lists (in random order) the officially named Jupyter Frontends Council members.
 
