@@ -1,6 +1,6 @@
-=======================
-JupyterLab Team Compass
-=======================
+==============================
+Jupyter Frontends Team Compass
+==============================
 
 
 This page contains links to the notes from team meetings
@@ -27,7 +27,7 @@ governance and planning.
 Why have a Team Compass?
 ========================
 
-This repository helps the JupyterLab team set a weekly
+This repository helps the Jupyter Frontends team set a weekly
 course for project activity. Our overriding goal is continuous team and
 project improvement.
 

@@ -10,7 +10,7 @@ peruse the other sections for basic info and additional context.
 
 ## &#x23F0; Basic Meeting Event Info
 
-JupyterLab team meetings are held every Wednesday. You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
+Jupyter Frontends team meetings are held every Wednesday. You can check the [Jupyter Community Meetings calendar](https://jupyter.org/community#calendar) for the exact time in your timezone.
 
 Read the [weekly meeting notes/agenda here](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg).
 
@@ -155,7 +155,7 @@ There are just a few post-meeting TODO items:
 corrections and formatting you can.
 - [ ] Publish the minutes: Convert the HackMD document to markdown and publish
 it to the relevant Weekly Team Meetings archive issue on GitHub [(example)](https://github.com/jupyterlab/frontends-team-compass/issues/205)
-in the JupyterLab team-compass repository for the corresponding time period
+in the Jupyter Frontends team-compass repository for the corresponding time period
 (search issues, and look for the 6 month period the meeting belongs to).
 
 &#x1F305; The Jupyter community depends on volunteers like you, so again we
