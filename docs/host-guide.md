@@ -81,7 +81,7 @@ connection, a good quality microphone, and a quiet environment.
 
 - Weekly Meeting Notes: https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg
 - Jupyter Code of Conduct: https://jupyter.org/governance/conduct/code_of_conduct.html
-- JupyterLab Team Compass: https://github.com/jupyterlab/team-compass
+- Jupyter Frontends Team Compass: https://github.com/jupyterlab/frontends-team-compass
 
 ### &#x1F399; At the start of the meeting
 
@@ -101,7 +101,7 @@ posted to YouTube for the community to view. Please keep that in mind while
 you’re here.
 
 Second, I’d like to remind people that as this is a part of the Jupyter
-community we are all held to the Jupyter Code of Conduct. You can read about 
+community we are all held to the Jupyter Code of Conduct. You can read about
 the code of conduct at jupyter.org/conduct.
 
 If you haven’t been here before, here’s how this works. Presenters have
@@ -134,7 +134,7 @@ If you have any feedback, please direct it at [platform/link]. I’d love to hea
 you think about the call.
 
 Our next community call will be [day, month]. Check out the Jupyter community calendar
-to see what other types of meetings 
+to see what other types of meetings
 are happening in between.
 
 If you have any interest in sharing in future community calls, please do! It doesn’t
@@ -154,7 +154,7 @@ There are just a few post-meeting TODO items:
 - [ ] Finalize meeting minutes: Go back to HackMD and make any needed additions,
 corrections and formatting you can.
 - [ ] Publish the minutes: Convert the HackMD document to markdown and publish
-it to the relevant Weekly Team Meetings archive issue on GitHub [(example)](https://github.com/jupyterlab/team-compass/issues/205)
+it to the relevant Weekly Team Meetings archive issue on GitHub [(example)](https://github.com/jupyterlab/frontends-team-compass/issues/205)
 in the JupyterLab team-compass repository for the corresponding time period
 (search issues, and look for the 6 month period the meeting belongs to).
 

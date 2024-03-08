@@ -6,7 +6,7 @@ JupyterLab Team Compass
 This page contains links to the notes from team meetings
 with the JupyterLab community. For more some more technical information
 and links to various JupyterLab repositories, see the
-`Team Compass README <https://github.com/jupyterlab/team-compass>`_.
+`Team Compass README <https://github.com/jupyterlab/frontends-team-compass>`_.
 
 Team Compass Resources
 ======================
