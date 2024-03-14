@@ -45,8 +45,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Team Compass'
-copyright = '2024, JupyterLab'
-author = 'JupyterLab Team'
+copyright = '2024, Jupyter Frontends'
+author = 'Jupyter Frontends Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -150,7 +150,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'TeamCompass.tex', 'Team Compass Documentation',
-     'JupyterLab Team', 'manual'),
+     'Jupyter Frontends Team', 'manual'),
 ]
 
 

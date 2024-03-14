@@ -10,11 +10,11 @@ They're meant to guide members to be happy, productive members of the team!
 There are a few resources that are particularly useful for team members. Here's
 a quick list to get you started.
 
-* [**The Jupyter Frontends Team Compass**](https://github.com/jupyterlab/team-compass)
+* [**The Jupyter Frontends Team Compass**](https://github.com/jupyterlab/frontends-team-compass)
   is a repository with lots of information about team-related things. It has
   development tips, information about team meetings, milestones and roadmaps,
   etc.
-* [**The Jupyter Frontends Team Compass issues**](https://github.com/jupyterlab/team-compass/issues)
+* [**The Jupyter Frontends Team Compass issues**](https://github.com/jupyterlab/frontends-team-compass/issues)
   are where we often discuss specific, actionable things related to the *team*
   (e.g., discussing whether to change something in the team-compass repo).
 
@@ -48,10 +48,10 @@ We don't want team membership to
 be a big burden (many of us have one or more other jobs too!) but there are
 a few things that you should do as a new member:
 
-1. **"Watch" the [team compass repository](https://github.com/jupyterlab/team-compass)** and the [council repository](https://github.com/jupyterlab/council)
+1. **"Watch" the [team compass repository](https://github.com/jupyterlab/frontends-team-compass)** and the [council repository](https://github.com/jupyterlab/council)
    so that you're notified when team conversations are happening.
 2. **Stay up-to-date on team meetings**. You can find a notes from previous meetings pinned at
-   the [top of the team-compass issues page](https://github.com/jupyterlab/team-compass/issues).
+   the [top of the team-compass issues page](https://github.com/jupyterlab/frontends-team-compass/issues).
 3. **Vote**. Participate in at least 2/3 of votes happening in the team-compass repo. You should be automatically pinged on Github when a vote is called.
 4. **Let us know if you'll be unavailable** or out of town for an extended period
    of time. It's no problem if you need to focus on other things for a bit, but it's

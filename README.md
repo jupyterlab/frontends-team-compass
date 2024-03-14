@@ -2,7 +2,7 @@
 
 A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.
 
-## Weekly JupyterLab team meeting
+## Weekly Jupyter Frontends team meeting
 Weekly team meetings take place on the [Jupyter Zoom room](https://zoom.us/my/jovyan?pwd=c0JZTHlNdS9Sek9vdzR3aTJ4SzFTQT09) on Wednesdays at 9:00 AM Pacific Time ([your time](https://www.thetimezoneconverter.com/?t=9%3A00%20am&tz=San%20Francisco)). Minutes will be taken at [Hackmd.io](https://hackmd.io/Y7fBMQPSQ1C08SDGI-fwtg). Each meeting's minutes will be added as a comment to an issue in this project.
 
 ## Weekly Jupyter triage meeting
