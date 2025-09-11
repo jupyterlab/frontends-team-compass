@@ -1,0 +1,18 @@
+name: PR Triage Board Bot
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  jupyterlab:
+    uses: yuvipanda/pr-triage-board-bot/.github/workflows/reusable-pr-triage.yml@main
+    with:
+      organization: 'jupyterlab'
+      project-number: '11'
+      gh-app-id: '1842581'
+      gh-installation-id: '82755492'
+    secrets:
+      gh-app-private-key: ${{ secrets.GH_APP_PRIVATE_KEY_JUPYTERLAB }}
