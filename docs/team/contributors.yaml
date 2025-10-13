@@ -8,100 +8,90 @@
 - name: Rosio Reyes
   handle: "@RRosio"
   affiliation: Anaconda
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Sylvain Corlay
   handle: "@SylvainCorlay"
   affiliation: QuantStack
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Zach Sailer
   handle: "@Zsailer"
   affiliation: Apple
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Afshin Darian
   handle: "@afshin"
   affiliation: QuantStack
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Alex Bozarth
   handle: "@ajbozarth"
   affiliation: IBM
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Andrii Ieroshenko
   handle: "@andrii-i"
   affiliation: Amazon Web Services
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Nicolas Brichet
   handle: "@brichet"
   affiliation: QuantStack
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Damián Avila
   handle: "@damianavila"
   affiliation: UMSI and 2i2c
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
+
+- name: Dan Yeaw
+  handle: "@danyeaw"
+  affiliation: Anaconda
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Brian Granger
   handle: "@ellisonbg"
   affiliation: Amazon Web Services
-  last-check-in: "Thu 05 Dec 2024"
-
-- name: Eric Gentry
-  handle: "@ericsnekbytes"
-  affiliation: Anaconda
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Frederic Collonval
   handle: "@fcollonval"
   affiliation: WebScIT
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Fernando Perez
   handle: "@fperez"
   affiliation: University of California, Berkeley
-  last-check-in: "Thu 05 Dec 2024"
-
-- name: Gabriel Fouasnon
-  handle: "@gabalafou"
-  affiliation: Quansight Labs
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Isabela Presedo-Floyd
   handle: "@isabela-pf"
   affiliation: Quansight Labs
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Jason Grout
   handle: "@jasongrout"
-  affiliation: Databricks
-  last-check-in: "Thu 05 Dec 2024"
+  affiliation: Independent
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Jeremy Tuloup
   handle: "@jtpio"
   affiliation: Quantstack
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Michał Krassowski
   handle: "@krassowski"
   affiliation: OpenTeams
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: Martha Cryan
   handle: "@marthacryan"
   affiliation: Mito
-  last-check-in: "Thu 05 Dec 2024"
-
-- name: Mehmet Bektas
-  handle: "@mbektas"
-  affiliation: Netflix
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
 - name: R Ely
   handle: "@ohrely"
   affiliation: Bloomberg
-  last-check-in: "Thu 05 Dec 2024"
+  last-check-in: "Mon 13 Oct 2025"
 
