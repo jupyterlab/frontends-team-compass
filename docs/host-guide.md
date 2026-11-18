@@ -26,7 +26,7 @@ The host should facilitate the flow of a meeting. That means:
 
 Partner with another contributor (a meeting facilitator) to do the following:
 
-- Log in as the “Project Jupyter” host account for meeting management perks (removing spammers, muting and recording, etc.). If you would like access to this account, request access from the [Jupyter Security Team](mailto:security@ipython.org).
+- Obtain host permissions (ask in the meeting if you'd like to practice as host).
 - Add a new section to this document with today's date, a table of attendees who have signed in, and an agenda. Agenda items should include a person who will lead the discussion.
 - Our meetings include an on-the-record and an off-the-record portion. Usually about 5 minutes into the hour, the host says that they're ready to start recording, and records "to the cloud". When all agenda items are finished, the host makes a last call, then ends the recording, then off-record topics can be discussed. Off-record topics typically include issue triage and release readiness.
 - Remove unwelcome recording bots:
